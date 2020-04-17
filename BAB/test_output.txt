@@ -1,16 +1,16 @@
-2020-04-07 23:02:04,324 INFO TEST
-2020-04-07 23:02:04,328 INFO Current len of heap: 0
-2020-04-07 23:02:04,328 INFO counter is: 0
-2020-04-07 23:02:04,328 INFO node is: <bab_starter.BBTreeNode object at 0x7f1d59b09c50>
-2020-04-07 23:02:04,329 INFO node vals are [2.0000000000428626, 2.499999998213806, 4.499999998256669]
-2020-04-07 23:02:04,329 INFO node vals are [<1×1 Real Variable: x>, <1×1 Real Variable: y>, <1×1 Real Variable: z>]
-2020-04-07 23:02:04,329 INFO Var round is 2
-2020-04-07 23:02:04,329 INFO Var float is 2.0000000000428626
-2020-04-07 23:02:04,329 INFO Var round is 2
-2020-04-07 23:02:04,329 INFO Var float is 2.499999998213806
-2020-04-07 23:02:04,329 INFO Not integral.
-2020-04-07 23:02:04,329 INFO floor is <bab_starter.BBTreeNode object at 0x7f1d2d367b90>
-2020-04-07 23:02:04,330 INFO floor prob is ------------------------------------
+2020-04-10 13:24:36,762 INFO TEST
+2020-04-10 13:24:36,766 INFO Current len of heap: 0
+2020-04-10 13:24:36,766 INFO counter is: 0
+2020-04-10 13:24:36,766 INFO node is: <bab_starter.BBTreeNode object at 0x7f22255df190>
+2020-04-10 13:24:36,767 INFO node vals are [2.0000000000428626, 2.499999998213806, 4.499999998256669]
+2020-04-10 13:24:36,767 INFO node vals are [<1×1 Real Variable: x>, <1×1 Real Variable: y>, <1×1 Real Variable: z>]
+2020-04-10 13:24:36,767 INFO Var round is 2
+2020-04-10 13:24:36,767 INFO Var float is 2.0000000000428626
+2020-04-10 13:24:36,767 INFO Var round is 2
+2020-04-10 13:24:36,767 INFO Var float is 2.499999998213806
+2020-04-10 13:24:36,767 INFO Not integral.
+2020-04-10 13:24:36,767 INFO floor is <bab_starter.BBTreeNode object at 0x7f21f8ea2bd0>
+2020-04-10 13:24:36,768 INFO floor prob is ------------------------------------
 Linear Program
   maximize z
   over
@@ -19,277 +19,45 @@ Linear Program
     [5 constraints (1st: z = x + y)]
     y ≤ 2
 ------------------------------------
-2020-04-07 23:02:04,330 INFO floor vars are [2.0000000000428626, 2.499999998213806, 4.499999998256669]
-2020-04-07 23:02:04,334 INFO newest counter val: 1 
-Has objective 4.166666666270725
-2020-04-07 23:02:04,334 INFO ceil is: <bab_starter.BBTreeNode object at 0x7f1d2d37fd90>
-2020-04-07 23:02:04,335 INFO ceil prob is ------------------------------------
+2020-04-10 13:24:36,768 INFO floor vars are [2.0000000000428626, 2.499999998213806, 4.499999998256669]
+2020-04-10 13:24:36,768 INFO newest counter val: 1 
+Has objective 4.499999998256669
+2020-04-10 13:24:36,769 INFO ceil is: <bab_starter.BBTreeNode object at 0x7f21f8ea22d0>
+2020-04-10 13:24:36,769 INFO ceil prob is ------------------------------------
 Linear Program
   maximize z
   over
     1×1 real variable x, y, z
   subject to
     [5 constraints (1st: z = x + y)]
-    y ≥ 2
-------------------------------------
-2020-04-07 23:02:04,335 INFO ceil vars are [2.1666666663429304, 1.9999999999277946, 4.166666666270725]
-2020-04-07 23:02:04,338 INFO newest counter val: 2 
-Has objective 4.49999999434243
-2020-04-07 23:02:04,338 INFO Current len of heap: 1
-2020-04-07 23:02:04,338 INFO counter is: 1
-2020-04-07 23:02:04,338 INFO node is: <bab_starter.BBTreeNode object at 0x7f1d2d367b90>
-2020-04-07 23:02:04,338 INFO node vals are [2.0000000006969807, 2.499999993645447, 4.49999999434243]
-2020-04-07 23:02:04,338 INFO node vals are [<1×1 Real Variable: x>, <1×1 Real Variable: y>, <1×1 Real Variable: z>]
-2020-04-07 23:02:04,339 INFO Var round is 2
-2020-04-07 23:02:04,339 INFO Var float is 2.0000000006969807
-2020-04-07 23:02:04,339 INFO Var round is 2
-2020-04-07 23:02:04,339 INFO Var float is 2.499999993645447
-2020-04-07 23:02:04,339 INFO Not integral.
-2020-04-07 23:02:04,339 INFO floor is <bab_starter.BBTreeNode object at 0x7f1d2b113dd0>
-2020-04-07 23:02:04,339 INFO floor prob is ------------------------------------
-Linear Program
-  maximize z
-  over
-    1×1 real variable x, y, z
-  subject to
-    [5 constraints (1st: z = x + y)]
-    y ≤ 2
-    y ≤ 2
-------------------------------------
-2020-04-07 23:02:04,339 INFO floor vars are [2.0000000006969807, 2.499999993645447, 4.49999999434243]
-2020-04-07 23:02:04,342 INFO newest counter val: 3 
-Has objective 4.166666666514379
-2020-04-07 23:02:04,342 INFO ceil is: <bab_starter.BBTreeNode object at 0x7f1d2b11dd50>
-2020-04-07 23:02:04,342 INFO ceil prob is ------------------------------------
-Linear Program
-  maximize z
-  over
-    1×1 real variable x, y, z
-  subject to
-    [5 constraints (1st: z = x + y)]
-    y ≤ 2
-    y ≥ 2
-------------------------------------
-2020-04-07 23:02:04,343 INFO ceil vars are [2.1666666667856367, 1.999999999728743, 4.166666666514379]
-2020-04-07 23:02:04,346 INFO newest counter val: 4 
-Has objective 4.16666666595072
-2020-04-07 23:02:04,346 INFO Current len of heap: 2
-2020-04-07 23:02:04,346 INFO counter is: 2
-2020-04-07 23:02:04,346 INFO node is: <bab_starter.BBTreeNode object at 0x7f1d2d37fd90>
-2020-04-07 23:02:04,346 INFO node vals are [2.1666666659475613, 2.000000000003159, 4.16666666595072]
-2020-04-07 23:02:04,346 INFO node vals are [<1×1 Real Variable: x>, <1×1 Real Variable: y>, <1×1 Real Variable: z>]
-2020-04-07 23:02:04,346 INFO Var round is 2
-2020-04-07 23:02:04,347 INFO Var float is 2.1666666659475613
-2020-04-07 23:02:04,347 INFO Not integral.
-2020-04-07 23:02:04,347 INFO floor is <bab_starter.BBTreeNode object at 0x7f1d2b11f610>
-2020-04-07 23:02:04,347 INFO floor prob is ------------------------------------
-Linear Program
-  maximize z
-  over
-    1×1 real variable x, y, z
-  subject to
-    [5 constraints (1st: z = x + y)]
-    y ≥ 2
-    x ≤ 2
-------------------------------------
-2020-04-07 23:02:04,347 INFO floor vars are [2.1666666659475613, 2.000000000003159, 4.16666666595072]
-2020-04-07 23:02:04,350 INFO newest counter val: 5 
-Has objective 4.499999993755287
-2020-04-07 23:02:04,351 INFO ceil is: <bab_starter.BBTreeNode object at 0x7f1d2b12af90>
-2020-04-07 23:02:04,351 INFO ceil prob is ------------------------------------
-Linear Program
-  maximize z
-  over
-    1×1 real variable x, y, z
-  subject to
-    [5 constraints (1st: z = x + y)]
-    y ≥ 2
-    x ≥ 2
-------------------------------------
-2020-04-07 23:02:04,351 INFO ceil vars are [1.9999999993901039, 2.4999999943651807, 4.499999993755287]
-2020-04-07 23:02:04,355 INFO newest counter val: 6 
-Has objective 4.4999999997113225
-2020-04-07 23:02:04,355 INFO Current len of heap: 3
-2020-04-07 23:02:04,355 INFO counter is: 3
-2020-04-07 23:02:04,355 INFO node is: <bab_starter.BBTreeNode object at 0x7f1d2b113dd0>
-2020-04-07 23:02:04,355 INFO node vals are [2.0000000000673674, 2.499999999643955, 4.4999999997113225]
-2020-04-07 23:02:04,355 INFO node vals are [<1×1 Real Variable: x>, <1×1 Real Variable: y>, <1×1 Real Variable: z>]
-2020-04-07 23:02:04,355 INFO Var round is 2
-2020-04-07 23:02:04,355 INFO Var float is 2.0000000000673674
-2020-04-07 23:02:04,355 INFO Var round is 2
-2020-04-07 23:02:04,355 INFO Var float is 2.499999999643955
-2020-04-07 23:02:04,355 INFO Not integral.
-2020-04-07 23:02:04,356 INFO floor is <bab_starter.BBTreeNode object at 0x7f1d2b12f3d0>
-2020-04-07 23:02:04,356 INFO floor prob is ------------------------------------
-Linear Program
-  maximize z
-  over
-    1×1 real variable x, y, z
-  subject to
-    [5 constraints (1st: z = x + y)]
-    y ≤ 2
-    y ≤ 2
-    y ≤ 2
-------------------------------------
-2020-04-07 23:02:04,356 INFO floor vars are [2.0000000000673674, 2.499999999643955, 4.4999999997113225]
-2020-04-07 23:02:04,360 INFO newest counter val: 7 
-Has objective 4.166666666292673
-2020-04-07 23:02:04,360 INFO ceil is: <bab_starter.BBTreeNode object at 0x7f1d2b141e50>
-2020-04-07 23:02:04,360 INFO ceil prob is ------------------------------------
-Linear Program
-  maximize z
-  over
-    1×1 real variable x, y, z
-  subject to
-    [5 constraints (1st: z = x + y)]
-    y ≤ 2
-    y ≤ 2
-    y ≥ 2
-------------------------------------
-2020-04-07 23:02:04,360 INFO ceil vars are [2.166666666896687, 1.9999999993959858, 4.166666666292673]
-2020-04-07 23:02:04,363 INFO newest counter val: 8 
-Has objective 4.166666666653326
-2020-04-07 23:02:04,363 INFO Current len of heap: 4
-2020-04-07 23:02:04,363 INFO counter is: 4
-2020-04-07 23:02:04,363 INFO node is: <bab_starter.BBTreeNode object at 0x7f1d2b11dd50>
-2020-04-07 23:02:04,363 INFO node vals are [2.166666666673938, 1.9999999999793872, 4.166666666653326]
-2020-04-07 23:02:04,363 INFO node vals are [<1×1 Real Variable: x>, <1×1 Real Variable: y>, <1×1 Real Variable: z>]
-2020-04-07 23:02:04,363 INFO Var round is 2
-2020-04-07 23:02:04,363 INFO Var float is 2.166666666673938
-2020-04-07 23:02:04,363 INFO Not integral.
-2020-04-07 23:02:04,364 INFO floor is <bab_starter.BBTreeNode object at 0x7f1d2b13d990>
-2020-04-07 23:02:04,364 INFO floor prob is ------------------------------------
-Linear Program
-  maximize z
-  over
-    1×1 real variable x, y, z
-  subject to
-    [5 constraints (1st: z = x + y)]
-    y ≤ 2
-    y ≥ 2
-    x ≤ 2
-------------------------------------
-2020-04-07 23:02:04,364 INFO floor vars are [2.166666666673938, 1.9999999999793872, 4.166666666653326]
-2020-04-07 23:02:04,367 INFO newest counter val: 9 
-Has objective 3.999999997172149
-2020-04-07 23:02:04,368 INFO ceil is: <bab_starter.BBTreeNode object at 0x7f1d2b0d51d0>
-2020-04-07 23:02:04,368 INFO ceil prob is ------------------------------------
-Linear Program
-  maximize z
-  over
-    1×1 real variable x, y, z
-  subject to
-    [5 constraints (1st: z = x + y)]
-    y ≤ 2
-    y ≥ 2
-    x ≥ 2
-------------------------------------
-2020-04-07 23:02:04,368 INFO ceil vars are [1.9999999963996797, 2.0000000007724688, 3.999999997172149]
-2020-04-07 23:02:04,371 INFO newest counter val: 10 
-Has objective 4.166666662124261
-2020-04-07 23:02:04,371 INFO Current len of heap: 5
-2020-04-07 23:02:04,371 INFO counter is: 5
-2020-04-07 23:02:04,371 INFO node is: <bab_starter.BBTreeNode object at 0x7f1d2b11f610>
-2020-04-07 23:02:04,371 INFO node vals are [2.1666666617444674, 2.0000000003797944, 4.166666662124261]
-2020-04-07 23:02:04,372 INFO node vals are [<1×1 Real Variable: x>, <1×1 Real Variable: y>, <1×1 Real Variable: z>]
-2020-04-07 23:02:04,372 INFO Var round is 2
-2020-04-07 23:02:04,372 INFO Var float is 2.1666666617444674
-2020-04-07 23:02:04,372 INFO Not integral.
-2020-04-07 23:02:04,372 INFO floor is <bab_starter.BBTreeNode object at 0x7f1d2b0d1590>
-2020-04-07 23:02:04,372 INFO floor prob is ------------------------------------
-Linear Program
-  maximize z
-  over
-    1×1 real variable x, y, z
-  subject to
-    [5 constraints (1st: z = x + y)]
-    y ≥ 2
-    x ≤ 2
-    x ≤ 2
-------------------------------------
-2020-04-07 23:02:04,372 INFO floor vars are [2.1666666617444674, 2.0000000003797944, 4.166666662124261]
-2020-04-07 23:02:04,375 INFO newest counter val: 11 
-Has objective 4.499999993200806
-2020-04-07 23:02:04,375 INFO ceil is: <bab_starter.BBTreeNode object at 0x7f1d2b0e2d90>
-2020-04-07 23:02:04,375 INFO ceil prob is ------------------------------------
-Linear Program
-  maximize z
-  over
-    1×1 real variable x, y, z
-  subject to
-    [5 constraints (1st: z = x + y)]
-    y ≥ 2
-    x ≤ 2
-    x ≥ 2
-------------------------------------
-2020-04-07 23:02:04,375 INFO ceil vars are [1.9999999985714778, 2.499999994629326, 4.499999993200806]
-2020-04-07 23:02:04,378 INFO newest counter val: 12 
-Has objective 4.499999999745516
-2020-04-07 23:02:04,378 INFO Current len of heap: 6
-2020-04-07 23:02:04,378 INFO counter is: 6
-2020-04-07 23:02:04,378 INFO node is: <bab_starter.BBTreeNode object at 0x7f1d2b12af90>
-2020-04-07 23:02:04,378 INFO node vals are [2.0000000000155973, 2.4999999997299187, 4.499999999745516]
-2020-04-07 23:02:04,378 INFO node vals are [<1×1 Real Variable: x>, <1×1 Real Variable: y>, <1×1 Real Variable: z>]
-2020-04-07 23:02:04,378 INFO Var round is 2
-2020-04-07 23:02:04,378 INFO Var float is 2.0000000000155973
-2020-04-07 23:02:04,378 INFO Var round is 2
-2020-04-07 23:02:04,378 INFO Var float is 2.4999999997299187
-2020-04-07 23:02:04,378 INFO Not integral.
-2020-04-07 23:02:04,379 INFO floor is <bab_starter.BBTreeNode object at 0x7f1d2b0ec110>
-2020-04-07 23:02:04,379 INFO floor prob is ------------------------------------
-Linear Program
-  maximize z
-  over
-    1×1 real variable x, y, z
-  subject to
-    [5 constraints (1st: z = x + y)]
-    y ≥ 2
-    x ≥ 2
-    y ≤ 2
-------------------------------------
-2020-04-07 23:02:04,379 INFO floor vars are [2.0000000000155973, 2.4999999997299187, 4.499999999745516]
-2020-04-07 23:02:04,381 INFO newest counter val: 13 
-Has objective 4.166666662124262
-2020-04-07 23:02:04,382 INFO ceil is: <bab_starter.BBTreeNode object at 0x7f1d2b0f3f50>
-2020-04-07 23:02:04,382 INFO ceil prob is ------------------------------------
-Linear Program
-  maximize z
-  over
-    1×1 real variable x, y, z
-  subject to
-    [5 constraints (1st: z = x + y)]
-    y ≥ 2
-    x ≥ 2
     y ≥ 3
 ------------------------------------
-2020-04-07 23:02:04,382 INFO ceil vars are [2.166666661744468, 2.000000000379795, 4.166666662124262]
-2020-04-07 23:02:04,385 INFO No valid round up. Exception Code 3: Primal solution state claimed empty but optimality is required (primals=True).
-2020-04-07 23:02:04,385 INFO Current len of heap: 6
-2020-04-07 23:02:04,385 INFO counter is: 7
-2020-04-07 23:02:04,385 INFO node is: <bab_starter.BBTreeNode object at 0x7f1d2b12f3d0>
-2020-04-07 23:02:04,385 INFO node vals are [2.166666661744468, 2.000000000379795, 4.166666662124262]
-2020-04-07 23:02:04,385 INFO node vals are [<1×1 Real Variable: x>, <1×1 Real Variable: y>, <1×1 Real Variable: z>]
-2020-04-07 23:02:04,386 INFO Var round is 2
-2020-04-07 23:02:04,386 INFO Var float is 2.166666661744468
-2020-04-07 23:02:04,386 INFO Not integral.
-2020-04-07 23:02:04,386 INFO floor is <bab_starter.BBTreeNode object at 0x7f1d2b0fcc10>
-2020-04-07 23:02:04,386 INFO floor prob is ------------------------------------
+2020-04-10 13:24:36,769 INFO ceil vars are [2.0000000000428626, 2.499999998213806, 4.499999998256669]
+2020-04-10 13:24:36,773 INFO No valid round up. Exception Code 3: Primal solution state claimed empty but optimality is required (primals=True).
+2020-04-10 13:24:36,776 INFO Current len of heap: 0
+2020-04-10 13:24:36,776 INFO counter is: 1
+2020-04-10 13:24:36,776 INFO node is: <bab_starter.BBTreeNode object at 0x7f21f8ea2bd0>
+2020-04-10 13:24:36,776 INFO node vals are [2.1666666663429304, 1.9999999999277946, 4.166666666270725]
+2020-04-10 13:24:36,777 INFO node vals are [<1×1 Real Variable: x>, <1×1 Real Variable: y>, <1×1 Real Variable: z>]
+2020-04-10 13:24:36,777 INFO Var round is 2
+2020-04-10 13:24:36,777 INFO Var float is 2.1666666663429304
+2020-04-10 13:24:36,777 INFO Not integral.
+2020-04-10 13:24:36,777 INFO floor is <bab_starter.BBTreeNode object at 0x7f21f6c4ead0>
+2020-04-10 13:24:36,777 INFO floor prob is ------------------------------------
 Linear Program
   maximize z
   over
     1×1 real variable x, y, z
   subject to
     [5 constraints (1st: z = x + y)]
-    y ≤ 2
-    y ≤ 2
     y ≤ 2
     x ≤ 2
 ------------------------------------
-2020-04-07 23:02:04,386 INFO floor vars are [2.166666661744468, 2.000000000379795, 4.166666662124262]
-2020-04-07 23:02:04,389 INFO newest counter val: 14 
-Has objective 3.999999998911867
-2020-04-07 23:02:04,389 INFO ceil is: <bab_starter.BBTreeNode object at 0x7f1d2b08edd0>
-2020-04-07 23:02:04,389 INFO ceil prob is ------------------------------------
+2020-04-10 13:24:36,778 INFO floor vars are [2.1666666663429304, 1.9999999999277946, 4.166666666270725]
+2020-04-10 13:24:36,778 INFO newest counter val: 2 
+Has objective 4.166666666270725
+2020-04-10 13:24:36,778 INFO ceil is: <bab_starter.BBTreeNode object at 0x7f21f6c50710>
+2020-04-10 13:24:36,778 INFO ceil prob is ------------------------------------
 Linear Program
   maximize z
   over
@@ -297,270 +65,199 @@ Linear Program
   subject to
     [5 constraints (1st: z = x + y)]
     y ≤ 2
+    x ≥ 3
+------------------------------------
+2020-04-10 13:24:36,778 INFO ceil vars are [2.1666666663429304, 1.9999999999277946, 4.166666666270725]
+2020-04-10 13:24:36,782 INFO No valid round up. Exception Code 3: Primal solution state claimed empty but optimality is required (primals=True).
+2020-04-10 13:24:36,785 INFO Current len of heap: 0
+2020-04-10 13:24:36,785 INFO counter is: 2
+2020-04-10 13:24:36,785 INFO node is: <bab_starter.BBTreeNode object at 0x7f21f6c4ead0>
+2020-04-10 13:24:36,785 INFO node vals are [1.9999999993671276, 2.000000000018833, 3.99999999938596]
+2020-04-10 13:24:36,785 INFO node vals are [<1×1 Real Variable: x>, <1×1 Real Variable: y>, <1×1 Real Variable: z>]
+2020-04-10 13:24:36,785 INFO Var round is 2
+2020-04-10 13:24:36,785 INFO Var float is 1.9999999993671276
+2020-04-10 13:24:36,785 INFO Var round is 2
+2020-04-10 13:24:36,785 INFO Var float is 2.000000000018833
+2020-04-10 13:24:36,785 INFO Is integral
+2020-04-10 13:24:36,786 INFO  vars are: [1.9999999993671276, 2.000000000018833, 3.99999999938596]
+2020-04-10 13:24:36,786 INFO Compared new bestval is: 3.99999999938596 
+ compared to -1e+20
+2020-04-10 13:24:36,786 INFO New bestres is 3.99999999938596
+2020-04-10 13:24:36,786 INFO New bestnode_vars are: [1.9999999993671276, 2.000000000018833, 3.99999999938596]
+2020-04-10 13:24:36,786 INFO Solved everything! bestres: 3.99999999938596 
+ bestnode_vars: [1.9999999993671276, 2.000000000018833, 3.99999999938596] 
+
+
+
+
+
+
+
+
+2020-04-10 13:24:36,788 INFO TEST
+2020-04-10 13:24:36,790 INFO Current len of heap: 0
+2020-04-10 13:24:36,790 INFO counter is: 3
+2020-04-10 13:24:36,791 INFO node is: <bab_starter.BBTreeNode object at 0x7f21f8ea2c90>
+2020-04-10 13:24:36,791 INFO node vals are [3.571428571408099, 3.428571428591054, 439.99999999924535]
+2020-04-10 13:24:36,791 INFO node vals are [<1×1 Real Variable: x>, <1×1 Real Variable: y>, <1×1 Real Variable: z>]
+2020-04-10 13:24:36,791 INFO Var round is 4
+2020-04-10 13:24:36,791 INFO Var float is 3.571428571408099
+2020-04-10 13:24:36,791 INFO Not integral.
+2020-04-10 13:24:36,791 INFO floor is <bab_starter.BBTreeNode object at 0x7f21f6c6acd0>
+2020-04-10 13:24:36,792 INFO floor prob is ------------------------------------
+Linear Program
+  maximize z
+  over
+    1×1 real variable x, y, z
+  subject to
+    [5 constraints (1st: x + y ≤ 7)]
+    x ≤ 3
+------------------------------------
+2020-04-10 13:24:36,792 INFO floor vars are [3.571428571408099, 3.428571428591054, 439.99999999924535]
+2020-04-10 13:24:36,792 INFO newest counter val: 4 
+Has objective 439.99999999924535
+2020-04-10 13:24:36,792 INFO ceil is: <bab_starter.BBTreeNode object at 0x7f21f6c6a0d0>
+2020-04-10 13:24:36,792 INFO ceil prob is ------------------------------------
+Linear Program
+  maximize z
+  over
+    1×1 real variable x, y, z
+  subject to
+    [5 constraints (1st: x + y ≤ 7)]
+    x ≥ 4
+------------------------------------
+2020-04-10 13:24:36,793 INFO ceil vars are [3.571428571408099, 3.428571428591054, 439.99999999924535]
+2020-04-10 13:24:36,796 INFO newest counter val: 5 
+Has objective 427.9999999999864
+2020-04-10 13:24:36,799 INFO Current len of heap: 1
+2020-04-10 13:24:36,799 INFO counter is: 4
+2020-04-10 13:24:36,799 INFO node is: <bab_starter.BBTreeNode object at 0x7f21f6c6acd0>
+2020-04-10 13:24:36,799 INFO node vals are [2.9999999999984834, 4.000000000003941, 420.000000000056]
+2020-04-10 13:24:36,799 INFO node vals are [<1×1 Real Variable: x>, <1×1 Real Variable: y>, <1×1 Real Variable: z>]
+2020-04-10 13:24:36,799 INFO Var round is 3
+2020-04-10 13:24:36,799 INFO Var float is 2.9999999999984834
+2020-04-10 13:24:36,800 INFO Var round is 4
+2020-04-10 13:24:36,800 INFO Var float is 4.000000000003941
+2020-04-10 13:24:36,800 INFO Is integral
+2020-04-10 13:24:36,800 INFO  vars are: [2.9999999999984834, 4.000000000003941, 420.000000000056]
+2020-04-10 13:24:36,800 INFO Compared new bestval is: 420.000000000056 
+ compared to -1e+20
+2020-04-10 13:24:36,800 INFO New bestres is 420.000000000056
+2020-04-10 13:24:36,800 INFO New bestnode_vars are: [2.9999999999984834, 4.000000000003941, 420.000000000056]
+2020-04-10 13:24:36,804 INFO Current len of heap: 0
+2020-04-10 13:24:36,804 INFO counter is: 5
+2020-04-10 13:24:36,804 INFO node is: <bab_starter.BBTreeNode object at 0x7f21f6c6a0d0>
+2020-04-10 13:24:36,804 INFO node vals are [4.00000000000016, 2.3999999999994146, 427.9999999999864]
+2020-04-10 13:24:36,804 INFO node vals are [<1×1 Real Variable: x>, <1×1 Real Variable: y>, <1×1 Real Variable: z>]
+2020-04-10 13:24:36,804 INFO Var round is 4
+2020-04-10 13:24:36,804 INFO Var float is 4.00000000000016
+2020-04-10 13:24:36,804 INFO Var round is 2
+2020-04-10 13:24:36,804 INFO Var float is 2.3999999999994146
+2020-04-10 13:24:36,804 INFO Not integral.
+2020-04-10 13:24:36,805 INFO floor is <bab_starter.BBTreeNode object at 0x7f21f6c71e90>
+2020-04-10 13:24:36,805 INFO floor prob is ------------------------------------
+Linear Program
+  maximize z
+  over
+    1×1 real variable x, y, z
+  subject to
+    [5 constraints (1st: x + y ≤ 7)]
+    x ≥ 4
     y ≤ 2
+------------------------------------
+2020-04-10 13:24:36,805 INFO floor vars are [4.00000000000016, 2.3999999999994146, 427.9999999999864]
+2020-04-10 13:24:36,805 INFO newest counter val: 6 
+Has objective 427.9999999999864
+2020-04-10 13:24:36,806 INFO ceil is: <bab_starter.BBTreeNode object at 0x7f21f6c7fe10>
+2020-04-10 13:24:36,806 INFO ceil prob is ------------------------------------
+Linear Program
+  maximize z
+  over
+    1×1 real variable x, y, z
+  subject to
+    [5 constraints (1st: x + y ≤ 7)]
+    x ≥ 4
+    y ≥ 3
+------------------------------------
+2020-04-10 13:24:36,806 INFO ceil vars are [4.00000000000016, 2.3999999999994146, 427.9999999999864]
+2020-04-10 13:24:36,809 INFO No valid round up. Exception Code 3: Primal solution state claimed empty but optimality is required (primals=True).
+2020-04-10 13:24:36,812 INFO Current len of heap: 0
+2020-04-10 13:24:36,812 INFO counter is: 6
+2020-04-10 13:24:36,812 INFO node is: <bab_starter.BBTreeNode object at 0x7f21f6c71e90>
+2020-04-10 13:24:36,812 INFO node vals are [4.1666666666611825, 2.000000000012161, 423.3333333334418]
+2020-04-10 13:24:36,812 INFO node vals are [<1×1 Real Variable: x>, <1×1 Real Variable: y>, <1×1 Real Variable: z>]
+2020-04-10 13:24:36,812 INFO Var round is 4
+2020-04-10 13:24:36,812 INFO Var float is 4.1666666666611825
+2020-04-10 13:24:36,812 INFO Not integral.
+2020-04-10 13:24:36,812 INFO floor is <bab_starter.BBTreeNode object at 0x7f21f6c13790>
+2020-04-10 13:24:36,813 INFO floor prob is ------------------------------------
+Linear Program
+  maximize z
+  over
+    1×1 real variable x, y, z
+  subject to
+    [5 constraints (1st: x + y ≤ 7)]
+    x ≥ 4
     y ≤ 2
-    x ≥ 3
+    x ≤ 4
 ------------------------------------
-2020-04-07 23:02:04,389 INFO ceil vars are [2.0000000002302367, 1.9999999986816306, 3.999999998911867]
-2020-04-07 23:02:04,392 INFO No valid round up. Exception Code 3: Primal solution state claimed empty but optimality is required (primals=True).
-2020-04-07 23:02:04,392 INFO Current len of heap: 6
-2020-04-07 23:02:04,392 INFO counter is: 8
-2020-04-07 23:02:04,392 INFO node is: <bab_starter.BBTreeNode object at 0x7f1d2b141e50>
-2020-04-07 23:02:04,392 INFO node vals are [2.0000000002302367, 1.9999999986816306, 3.999999998911867]
-2020-04-07 23:02:04,392 INFO node vals are [<1×1 Real Variable: x>, <1×1 Real Variable: y>, <1×1 Real Variable: z>]
-2020-04-07 23:02:04,392 INFO Var round is 2
-2020-04-07 23:02:04,392 INFO Var float is 2.0000000002302367
-2020-04-07 23:02:04,392 INFO Var round is 2
-2020-04-07 23:02:04,392 INFO Var float is 1.9999999986816306
-2020-04-07 23:02:04,392 INFO Is integral
-2020-04-07 23:02:04,392 INFO  vars are: [2.0000000002302367, 1.9999999986816306, 3.999999998911867]
-2020-04-07 23:02:04,392 INFO Compared new bestval is: 3.999999998911867 
+2020-04-10 13:24:36,813 INFO floor vars are [4.1666666666611825, 2.000000000012161, 423.3333333334418]
+2020-04-10 13:24:36,813 INFO newest counter val: 7 
+Has objective 423.3333333334418
+2020-04-10 13:24:36,813 INFO ceil is: <bab_starter.BBTreeNode object at 0x7f21f6c142d0>
+2020-04-10 13:24:36,813 INFO ceil prob is ------------------------------------
+Linear Program
+  maximize z
+  over
+    1×1 real variable x, y, z
+  subject to
+    [5 constraints (1st: x + y ≤ 7)]
+    x ≥ 4
+    y ≤ 2
+    x ≥ 5
+------------------------------------
+2020-04-10 13:24:36,813 INFO ceil vars are [4.1666666666611825, 2.000000000012161, 423.3333333334418]
+2020-04-10 13:24:36,817 INFO newest counter val: 8 
+Has objective 400.0000000000587
+2020-04-10 13:24:36,821 INFO Current len of heap: 1
+2020-04-10 13:24:36,821 INFO counter is: 7
+2020-04-10 13:24:36,821 INFO node is: <bab_starter.BBTreeNode object at 0x7f21f6c13790>
+2020-04-10 13:24:36,821 INFO node vals are [4.000000000000785, 2.000000000001658, 410.0000000001374]
+2020-04-10 13:24:36,821 INFO node vals are [<1×1 Real Variable: x>, <1×1 Real Variable: y>, <1×1 Real Variable: z>]
+2020-04-10 13:24:36,821 INFO Bad objective of 410.0000000001374
+2020-04-10 13:24:36,824 INFO Current len of heap: 0
+2020-04-10 13:24:36,824 INFO counter is: 8
+2020-04-10 13:24:36,824 INFO node is: <bab_starter.BBTreeNode object at 0x7f21f6c142d0>
+2020-04-10 13:24:36,824 INFO node vals are [4.999999999997836, 5.152221864182999e-12, 400.0000000000587]
+2020-04-10 13:24:36,824 INFO node vals are [<1×1 Real Variable: x>, <1×1 Real Variable: y>, <1×1 Real Variable: z>]
+2020-04-10 13:24:36,824 INFO Bad objective of 400.0000000000587
+2020-04-10 13:24:36,825 INFO Solved everything! bestres: 420.000000000056 
+ bestnode_vars: [2.9999999999984834, 4.000000000003941, 420.000000000056] 
+
+
+
+
+
+
+
+
+2020-04-10 13:24:36,827 INFO TEST
+2020-04-10 13:24:36,830 INFO Current len of heap: 0
+2020-04-10 13:24:36,830 INFO counter is: 9
+2020-04-10 13:24:36,830 INFO node is: <bab_starter.BBTreeNode object at 0x7f21f6c71dd0>
+2020-04-10 13:24:36,830 INFO node vals are [-2.8299622068884114e-10, 27.000000000122522, 134.99999999948062]
+2020-04-10 13:24:36,830 INFO node vals are [<1×1 Real Variable: x>, <1×1 Real Variable: y>, <1×1 Real Variable: z>]
+2020-04-10 13:24:36,830 INFO Var round is 0
+2020-04-10 13:24:36,830 INFO Var float is -2.8299622068884114e-10
+2020-04-10 13:24:36,830 INFO Var round is 27
+2020-04-10 13:24:36,830 INFO Var float is 27.000000000122522
+2020-04-10 13:24:36,830 INFO Is integral
+2020-04-10 13:24:36,830 INFO  vars are: [-2.8299622068884114e-10, 27.000000000122522, 134.99999999948062]
+2020-04-10 13:24:36,830 INFO Compared new bestval is: 134.99999999948062 
  compared to -1e+20
-2020-04-07 23:02:04,393 INFO New bestres is 3.999999998911867
-2020-04-07 23:02:04,393 INFO New bestnode_vars are: [2.0000000002302367, 1.9999999986816306, 3.999999998911867]
-2020-04-07 23:02:04,393 INFO Current len of heap: 5
-2020-04-07 23:02:04,393 INFO counter is: 9
-2020-04-07 23:02:04,393 INFO node is: <bab_starter.BBTreeNode object at 0x7f1d2b13d990>
-2020-04-07 23:02:04,393 INFO node vals are [2.0000000002302367, 1.9999999986816306, 3.999999998911867]
-2020-04-07 23:02:04,393 INFO node vals are [<1×1 Real Variable: x>, <1×1 Real Variable: y>, <1×1 Real Variable: z>]
-2020-04-07 23:02:04,393 INFO Var round is 2
-2020-04-07 23:02:04,393 INFO Var float is 2.0000000002302367
-2020-04-07 23:02:04,393 INFO Var round is 2
-2020-04-07 23:02:04,393 INFO Var float is 1.9999999986816306
-2020-04-07 23:02:04,393 INFO Is integral
-2020-04-07 23:02:04,394 INFO  vars are: [2.0000000002302367, 1.9999999986816306, 3.999999998911867]
-2020-04-07 23:02:04,394 INFO Compared new bestval is: 3.999999998911867 
- compared to 3.999999998911867
-2020-04-07 23:02:04,394 INFO New bestres is 3.999999998911867
-2020-04-07 23:02:04,394 INFO New bestnode_vars are: [2.0000000002302367, 1.9999999986816306, 3.999999998911867]
-2020-04-07 23:02:04,394 INFO Current len of heap: 4
-2020-04-07 23:02:04,394 INFO counter is: 10
-2020-04-07 23:02:04,394 INFO node is: <bab_starter.BBTreeNode object at 0x7f1d2b0d51d0>
-2020-04-07 23:02:04,394 INFO node vals are [2.0000000002302367, 1.9999999986816306, 3.999999998911867]
-2020-04-07 23:02:04,394 INFO node vals are [<1×1 Real Variable: x>, <1×1 Real Variable: y>, <1×1 Real Variable: z>]
-2020-04-07 23:02:04,394 INFO Var round is 2
-2020-04-07 23:02:04,394 INFO Var float is 2.0000000002302367
-2020-04-07 23:02:04,394 INFO Var round is 2
-2020-04-07 23:02:04,394 INFO Var float is 1.9999999986816306
-2020-04-07 23:02:04,394 INFO Is integral
-2020-04-07 23:02:04,394 INFO  vars are: [2.0000000002302367, 1.9999999986816306, 3.999999998911867]
-2020-04-07 23:02:04,394 INFO Compared new bestval is: 3.999999998911867 
- compared to 3.999999998911867
-2020-04-07 23:02:04,395 INFO New bestres is 3.999999998911867
-2020-04-07 23:02:04,395 INFO New bestnode_vars are: [2.0000000002302367, 1.9999999986816306, 3.999999998911867]
-2020-04-07 23:02:04,395 INFO Current len of heap: 3
-2020-04-07 23:02:04,395 INFO counter is: 11
-2020-04-07 23:02:04,395 INFO node is: <bab_starter.BBTreeNode object at 0x7f1d2b0d1590>
-2020-04-07 23:02:04,395 INFO node vals are [2.0000000002302367, 1.9999999986816306, 3.999999998911867]
-2020-04-07 23:02:04,395 INFO node vals are [<1×1 Real Variable: x>, <1×1 Real Variable: y>, <1×1 Real Variable: z>]
-2020-04-07 23:02:04,395 INFO Var round is 2
-2020-04-07 23:02:04,395 INFO Var float is 2.0000000002302367
-2020-04-07 23:02:04,395 INFO Var round is 2
-2020-04-07 23:02:04,395 INFO Var float is 1.9999999986816306
-2020-04-07 23:02:04,395 INFO Is integral
-2020-04-07 23:02:04,395 INFO  vars are: [2.0000000002302367, 1.9999999986816306, 3.999999998911867]
-2020-04-07 23:02:04,395 INFO Compared new bestval is: 3.999999998911867 
- compared to 3.999999998911867
-2020-04-07 23:02:04,395 INFO New bestres is 3.999999998911867
-2020-04-07 23:02:04,395 INFO New bestnode_vars are: [2.0000000002302367, 1.9999999986816306, 3.999999998911867]
-2020-04-07 23:02:04,395 INFO Current len of heap: 2
-2020-04-07 23:02:04,395 INFO counter is: 12
-2020-04-07 23:02:04,396 INFO node is: <bab_starter.BBTreeNode object at 0x7f1d2b0e2d90>
-2020-04-07 23:02:04,396 INFO node vals are [2.0000000002302367, 1.9999999986816306, 3.999999998911867]
-2020-04-07 23:02:04,396 INFO node vals are [<1×1 Real Variable: x>, <1×1 Real Variable: y>, <1×1 Real Variable: z>]
-2020-04-07 23:02:04,396 INFO Var round is 2
-2020-04-07 23:02:04,396 INFO Var float is 2.0000000002302367
-2020-04-07 23:02:04,396 INFO Var round is 2
-2020-04-07 23:02:04,396 INFO Var float is 1.9999999986816306
-2020-04-07 23:02:04,396 INFO Is integral
-2020-04-07 23:02:04,396 INFO  vars are: [2.0000000002302367, 1.9999999986816306, 3.999999998911867]
-2020-04-07 23:02:04,396 INFO Compared new bestval is: 3.999999998911867 
- compared to 3.999999998911867
-2020-04-07 23:02:04,396 INFO New bestres is 3.999999998911867
-2020-04-07 23:02:04,396 INFO New bestnode_vars are: [2.0000000002302367, 1.9999999986816306, 3.999999998911867]
-2020-04-07 23:02:04,396 INFO Current len of heap: 1
-2020-04-07 23:02:04,396 INFO counter is: 13
-2020-04-07 23:02:04,396 INFO node is: <bab_starter.BBTreeNode object at 0x7f1d2b0ec110>
-2020-04-07 23:02:04,396 INFO node vals are [2.0000000002302367, 1.9999999986816306, 3.999999998911867]
-2020-04-07 23:02:04,396 INFO node vals are [<1×1 Real Variable: x>, <1×1 Real Variable: y>, <1×1 Real Variable: z>]
-2020-04-07 23:02:04,396 INFO Var round is 2
-2020-04-07 23:02:04,397 INFO Var float is 2.0000000002302367
-2020-04-07 23:02:04,397 INFO Var round is 2
-2020-04-07 23:02:04,397 INFO Var float is 1.9999999986816306
-2020-04-07 23:02:04,397 INFO Is integral
-2020-04-07 23:02:04,397 INFO  vars are: [2.0000000002302367, 1.9999999986816306, 3.999999998911867]
-2020-04-07 23:02:04,397 INFO Compared new bestval is: 3.999999998911867 
- compared to 3.999999998911867
-2020-04-07 23:02:04,397 INFO New bestres is 3.999999998911867
-2020-04-07 23:02:04,397 INFO New bestnode_vars are: [2.0000000002302367, 1.9999999986816306, 3.999999998911867]
-2020-04-07 23:02:04,397 INFO Current len of heap: 0
-2020-04-07 23:02:04,397 INFO counter is: 14
-2020-04-07 23:02:04,397 INFO node is: <bab_starter.BBTreeNode object at 0x7f1d2b0fcc10>
-2020-04-07 23:02:04,397 INFO node vals are [2.0000000002302367, 1.9999999986816306, 3.999999998911867]
-2020-04-07 23:02:04,397 INFO node vals are [<1×1 Real Variable: x>, <1×1 Real Variable: y>, <1×1 Real Variable: z>]
-2020-04-07 23:02:04,397 INFO Var round is 2
-2020-04-07 23:02:04,397 INFO Var float is 2.0000000002302367
-2020-04-07 23:02:04,397 INFO Var round is 2
-2020-04-07 23:02:04,397 INFO Var float is 1.9999999986816306
-2020-04-07 23:02:04,398 INFO Is integral
-2020-04-07 23:02:04,398 INFO  vars are: [2.0000000002302367, 1.9999999986816306, 3.999999998911867]
-2020-04-07 23:02:04,398 INFO Compared new bestval is: 3.999999998911867 
- compared to 3.999999998911867
-2020-04-07 23:02:04,398 INFO New bestres is 3.999999998911867
-2020-04-07 23:02:04,398 INFO New bestnode_vars are: [2.0000000002302367, 1.9999999986816306, 3.999999998911867]
-2020-04-07 23:02:04,398 INFO Solved everything! bestres: 3.999999998911867 
- bestnode_vars: [2.0000000002302367, 1.9999999986816306, 3.999999998911867] 
-
-
-
-
-
-
-
-
-2020-04-07 23:02:04,399 INFO TEST
-2020-04-07 23:02:04,403 INFO Current len of heap: 0
-2020-04-07 23:02:04,403 INFO counter is: 15
-2020-04-07 23:02:04,403 INFO node is: <bab_starter.BBTreeNode object at 0x7f1d2b0da2d0>
-2020-04-07 23:02:04,403 INFO node vals are [3.571428571408099, 3.428571428591054, 439.99999999924535]
-2020-04-07 23:02:04,403 INFO node vals are [<1×1 Real Variable: x>, <1×1 Real Variable: y>, <1×1 Real Variable: z>]
-2020-04-07 23:02:04,403 INFO Var round is 4
-2020-04-07 23:02:04,403 INFO Var float is 3.571428571408099
-2020-04-07 23:02:04,403 INFO Not integral.
-2020-04-07 23:02:04,403 INFO floor is <bab_starter.BBTreeNode object at 0x7f1d2b0a2390>
-2020-04-07 23:02:04,404 INFO floor prob is ------------------------------------
-Linear Program
-  maximize z
-  over
-    1×1 real variable x, y, z
-  subject to
-    [5 constraints (1st: x + y ≤ 7)]
-    x ≤ 3
-------------------------------------
-2020-04-07 23:02:04,404 INFO floor vars are [3.571428571408099, 3.428571428591054, 439.99999999924535]
-2020-04-07 23:02:04,406 INFO newest counter val: 16 
-Has objective 420.000000000056
-2020-04-07 23:02:04,406 INFO ceil is: <bab_starter.BBTreeNode object at 0x7f1d2b0a98d0>
-2020-04-07 23:02:04,407 INFO ceil prob is ------------------------------------
-Linear Program
-  maximize z
-  over
-    1×1 real variable x, y, z
-  subject to
-    [5 constraints (1st: x + y ≤ 7)]
-    x ≥ 3
-------------------------------------
-2020-04-07 23:02:04,407 INFO ceil vars are [2.9999999999984834, 4.000000000003941, 420.000000000056]
-2020-04-07 23:02:04,409 INFO newest counter val: 17 
-Has objective 439.9999999989382
-2020-04-07 23:02:04,409 INFO Current len of heap: 1
-2020-04-07 23:02:04,409 INFO counter is: 16
-2020-04-07 23:02:04,409 INFO node is: <bab_starter.BBTreeNode object at 0x7f1d2b0a2390>
-2020-04-07 23:02:04,410 INFO node vals are [3.5714285714022207, 3.4285714285946804, 439.9999999989382]
-2020-04-07 23:02:04,410 INFO node vals are [<1×1 Real Variable: x>, <1×1 Real Variable: y>, <1×1 Real Variable: z>]
-2020-04-07 23:02:04,410 INFO Var round is 4
-2020-04-07 23:02:04,410 INFO Var float is 3.5714285714022207
-2020-04-07 23:02:04,410 INFO Not integral.
-2020-04-07 23:02:04,410 INFO floor is <bab_starter.BBTreeNode object at 0x7f1d2b0b0e50>
-2020-04-07 23:02:04,410 INFO floor prob is ------------------------------------
-Linear Program
-  maximize z
-  over
-    1×1 real variable x, y, z
-  subject to
-    [5 constraints (1st: x + y ≤ 7)]
-    x ≤ 3
-    x ≤ 3
-------------------------------------
-2020-04-07 23:02:04,410 INFO floor vars are [3.5714285714022207, 3.4285714285946804, 439.9999999989382]
-2020-04-07 23:02:04,413 INFO newest counter val: 18 
-Has objective 420.00000000249804
-2020-04-07 23:02:04,413 INFO ceil is: <bab_starter.BBTreeNode object at 0x7f1d2b0bcdd0>
-2020-04-07 23:02:04,414 INFO ceil prob is ------------------------------------
-Linear Program
-  maximize z
-  over
-    1×1 real variable x, y, z
-  subject to
-    [5 constraints (1st: x + y ≤ 7)]
-    x ≤ 3
-    x ≥ 3
-------------------------------------
-2020-04-07 23:02:04,414 INFO ceil vars are [2.999999999943434, 4.000000000156072, 420.00000000249804]
-2020-04-07 23:02:04,416 INFO newest counter val: 19 
-Has objective 420.000000000066
-2020-04-07 23:02:04,416 INFO Current len of heap: 2
-2020-04-07 23:02:04,416 INFO counter is: 17
-2020-04-07 23:02:04,417 INFO node is: <bab_starter.BBTreeNode object at 0x7f1d2b0a98d0>
-2020-04-07 23:02:04,417 INFO node vals are [3.0000000000000004, 4.000000000001465, 420.000000000066]
-2020-04-07 23:02:04,417 INFO node vals are [<1×1 Real Variable: x>, <1×1 Real Variable: y>, <1×1 Real Variable: z>]
-2020-04-07 23:02:04,417 INFO Var round is 3
-2020-04-07 23:02:04,417 INFO Var float is 3.0000000000000004
-2020-04-07 23:02:04,417 INFO Var round is 4
-2020-04-07 23:02:04,417 INFO Var float is 4.000000000001465
-2020-04-07 23:02:04,417 INFO Is integral
-2020-04-07 23:02:04,418 INFO  vars are: [3.0000000000000004, 4.000000000001465, 420.000000000066]
-2020-04-07 23:02:04,418 INFO Compared new bestval is: 420.000000000066 
- compared to -1e+20
-2020-04-07 23:02:04,418 INFO New bestres is 420.000000000066
-2020-04-07 23:02:04,418 INFO New bestnode_vars are: [3.0000000000000004, 4.000000000001465, 420.000000000066]
-2020-04-07 23:02:04,418 INFO Current len of heap: 1
-2020-04-07 23:02:04,418 INFO counter is: 18
-2020-04-07 23:02:04,418 INFO node is: <bab_starter.BBTreeNode object at 0x7f1d2b0b0e50>
-2020-04-07 23:02:04,418 INFO node vals are [3.0000000000000004, 4.000000000001465, 420.000000000066]
-2020-04-07 23:02:04,418 INFO node vals are [<1×1 Real Variable: x>, <1×1 Real Variable: y>, <1×1 Real Variable: z>]
-2020-04-07 23:02:04,418 INFO Var round is 3
-2020-04-07 23:02:04,418 INFO Var float is 3.0000000000000004
-2020-04-07 23:02:04,418 INFO Var round is 4
-2020-04-07 23:02:04,418 INFO Var float is 4.000000000001465
-2020-04-07 23:02:04,418 INFO Is integral
-2020-04-07 23:02:04,419 INFO  vars are: [3.0000000000000004, 4.000000000001465, 420.000000000066]
-2020-04-07 23:02:04,419 INFO Compared new bestval is: 420.000000000066 
- compared to 420.000000000066
-2020-04-07 23:02:04,419 INFO New bestres is 420.000000000066
-2020-04-07 23:02:04,419 INFO New bestnode_vars are: [3.0000000000000004, 4.000000000001465, 420.000000000066]
-2020-04-07 23:02:04,419 INFO Current len of heap: 0
-2020-04-07 23:02:04,419 INFO counter is: 19
-2020-04-07 23:02:04,419 INFO node is: <bab_starter.BBTreeNode object at 0x7f1d2b0bcdd0>
-2020-04-07 23:02:04,419 INFO node vals are [3.0000000000000004, 4.000000000001465, 420.000000000066]
-2020-04-07 23:02:04,419 INFO node vals are [<1×1 Real Variable: x>, <1×1 Real Variable: y>, <1×1 Real Variable: z>]
-2020-04-07 23:02:04,419 INFO Var round is 3
-2020-04-07 23:02:04,419 INFO Var float is 3.0000000000000004
-2020-04-07 23:02:04,419 INFO Var round is 4
-2020-04-07 23:02:04,419 INFO Var float is 4.000000000001465
-2020-04-07 23:02:04,419 INFO Is integral
-2020-04-07 23:02:04,420 INFO  vars are: [3.0000000000000004, 4.000000000001465, 420.000000000066]
-2020-04-07 23:02:04,420 INFO Compared new bestval is: 420.000000000066 
- compared to 420.000000000066
-2020-04-07 23:02:04,420 INFO New bestres is 420.000000000066
-2020-04-07 23:02:04,420 INFO New bestnode_vars are: [3.0000000000000004, 4.000000000001465, 420.000000000066]
-2020-04-07 23:02:04,420 INFO Solved everything! bestres: 420.000000000066 
- bestnode_vars: [3.0000000000000004, 4.000000000001465, 420.000000000066] 
-
-
-
-
-
-
-
-
-2020-04-07 23:02:04,422 INFO TEST
-2020-04-07 23:02:04,424 INFO Current len of heap: 0
-2020-04-07 23:02:04,424 INFO counter is: 20
-2020-04-07 23:02:04,424 INFO node is: <bab_starter.BBTreeNode object at 0x7f1d2b0a6f90>
-2020-04-07 23:02:04,424 INFO node vals are [-2.8299622068884114e-10, 27.000000000122522, 134.99999999948062]
-2020-04-07 23:02:04,424 INFO node vals are [<1×1 Real Variable: x>, <1×1 Real Variable: y>, <1×1 Real Variable: z>]
-2020-04-07 23:02:04,424 INFO Var round is 0
-2020-04-07 23:02:04,425 INFO Var float is -2.8299622068884114e-10
-2020-04-07 23:02:04,425 INFO Var round is 27
-2020-04-07 23:02:04,425 INFO Var float is 27.000000000122522
-2020-04-07 23:02:04,425 INFO Is integral
-2020-04-07 23:02:04,425 INFO  vars are: [-2.8299622068884114e-10, 27.000000000122522, 134.99999999948062]
-2020-04-07 23:02:04,425 INFO Compared new bestval is: 134.99999999948062 
- compared to -1e+20
-2020-04-07 23:02:04,425 INFO New bestres is 134.99999999948062
-2020-04-07 23:02:04,425 INFO New bestnode_vars are: [-2.8299622068884114e-10, 27.000000000122522, 134.99999999948062]
-2020-04-07 23:02:04,425 INFO Solved everything! bestres: 134.99999999948062 
+2020-04-10 13:24:36,830 INFO New bestres is 134.99999999948062
+2020-04-10 13:24:36,830 INFO New bestnode_vars are: [-2.8299622068884114e-10, 27.000000000122522, 134.99999999948062]
+2020-04-10 13:24:36,831 INFO Solved everything! bestres: 134.99999999948062 
  bestnode_vars: [-2.8299622068884114e-10, 27.000000000122522, 134.99999999948062] 
 
 
@@ -570,19 +267,19 @@ Has objective 420.000000000066
 
 
 
-2020-04-07 23:02:04,426 INFO TEST
-2020-04-07 23:02:04,429 INFO Current len of heap: 0
-2020-04-07 23:02:04,429 INFO counter is: 21
-2020-04-07 23:02:04,429 INFO node is: <bab_starter.BBTreeNode object at 0x7f1d2b0473d0>
-2020-04-07 23:02:04,429 INFO node vals are [7.999999999829071, 2.2500000000390736, 35.24999999968258]
-2020-04-07 23:02:04,429 INFO node vals are [<1×1 Real Variable: x>, <1×1 Real Variable: y>, <1×1 Real Variable: z>]
-2020-04-07 23:02:04,429 INFO Var round is 8
-2020-04-07 23:02:04,429 INFO Var float is 7.999999999829071
-2020-04-07 23:02:04,429 INFO Var round is 2
-2020-04-07 23:02:04,429 INFO Var float is 2.2500000000390736
-2020-04-07 23:02:04,429 INFO Not integral.
-2020-04-07 23:02:04,429 INFO floor is <bab_starter.BBTreeNode object at 0x7f1d2b062690>
-2020-04-07 23:02:04,430 INFO floor prob is ----------------------------------------
+2020-04-10 13:24:36,832 INFO TEST
+2020-04-10 13:24:36,835 INFO Current len of heap: 0
+2020-04-10 13:24:36,835 INFO counter is: 10
+2020-04-10 13:24:36,835 INFO node is: <bab_starter.BBTreeNode object at 0x7f21f6c188d0>
+2020-04-10 13:24:36,836 INFO node vals are [7.999999999829071, 2.2500000000390736, 35.24999999968258]
+2020-04-10 13:24:36,836 INFO node vals are [<1×1 Real Variable: x>, <1×1 Real Variable: y>, <1×1 Real Variable: z>]
+2020-04-10 13:24:36,836 INFO Var round is 8
+2020-04-10 13:24:36,836 INFO Var float is 7.999999999829071
+2020-04-10 13:24:36,836 INFO Var round is 2
+2020-04-10 13:24:36,836 INFO Var float is 2.2500000000390736
+2020-04-10 13:24:36,836 INFO Not integral.
+2020-04-10 13:24:36,836 INFO floor is <bab_starter.BBTreeNode object at 0x7f21f6c3dd10>
+2020-04-10 13:24:36,836 INFO floor prob is ----------------------------------------
 Linear Program
   maximize z
   over
@@ -591,11 +288,11 @@ Linear Program
     [5 constraints (1st: z = 3·x + 5·y)]
     y ≤ 2
 ----------------------------------------
-2020-04-07 23:02:04,430 INFO floor vars are [7.999999999829071, 2.2500000000390736, 35.24999999968258]
-2020-04-07 23:02:04,432 INFO newest counter val: 22 
-Has objective 34.00000000018694
-2020-04-07 23:02:04,433 INFO ceil is: <bab_starter.BBTreeNode object at 0x7f1d2b06b790>
-2020-04-07 23:02:04,433 INFO ceil prob is ----------------------------------------
+2020-04-10 13:24:36,836 INFO floor vars are [7.999999999829071, 2.2500000000390736, 35.24999999968258]
+2020-04-10 13:24:36,837 INFO newest counter val: 11 
+Has objective 35.24999999968258
+2020-04-10 13:24:36,837 INFO ceil is: <bab_starter.BBTreeNode object at 0x7f21f6bc0c10>
+2020-04-10 13:24:36,837 INFO ceil prob is ----------------------------------------
 Linear Program
   maximize z
   over
@@ -604,92 +301,113 @@ Linear Program
     [5 constraints (1st: z = 3·x + 5·y)]
     y ≥ 3
 ----------------------------------------
-2020-04-07 23:02:04,433 INFO ceil vars are [8.000000000009925, 2.000000000031432, 34.00000000018694]
-2020-04-07 23:02:04,437 INFO newest counter val: 23 
+2020-04-10 13:24:36,837 INFO ceil vars are [7.999999999829071, 2.2500000000390736, 35.24999999968258]
+2020-04-10 13:24:36,840 INFO newest counter val: 12 
 Has objective 34.4999999994975
-2020-04-07 23:02:04,437 INFO Current len of heap: 1
-2020-04-07 23:02:04,437 INFO counter is: 22
-2020-04-07 23:02:04,437 INFO node is: <bab_starter.BBTreeNode object at 0x7f1d2b062690>
-2020-04-07 23:02:04,437 INFO node vals are [6.49999999930634, 3.000000000315697, 34.4999999994975]
-2020-04-07 23:02:04,437 INFO node vals are [<1×1 Real Variable: x>, <1×1 Real Variable: y>, <1×1 Real Variable: z>]
-2020-04-07 23:02:04,437 INFO Var round is 6
-2020-04-07 23:02:04,437 INFO Var float is 6.49999999930634
-2020-04-07 23:02:04,437 INFO Not integral.
-2020-04-07 23:02:04,437 INFO floor is <bab_starter.BBTreeNode object at 0x7f1d2b06ef50>
-2020-04-07 23:02:04,438 INFO floor prob is ----------------------------------------
+2020-04-10 13:24:36,844 INFO Current len of heap: 1
+2020-04-10 13:24:36,844 INFO counter is: 11
+2020-04-10 13:24:36,844 INFO node is: <bab_starter.BBTreeNode object at 0x7f21f6c3dd10>
+2020-04-10 13:24:36,844 INFO node vals are [8.000000000009925, 2.000000000031432, 34.00000000018694]
+2020-04-10 13:24:36,844 INFO node vals are [<1×1 Real Variable: x>, <1×1 Real Variable: y>, <1×1 Real Variable: z>]
+2020-04-10 13:24:36,844 INFO Var round is 8
+2020-04-10 13:24:36,844 INFO Var float is 8.000000000009925
+2020-04-10 13:24:36,844 INFO Var round is 2
+2020-04-10 13:24:36,844 INFO Var float is 2.000000000031432
+2020-04-10 13:24:36,844 INFO Is integral
+2020-04-10 13:24:36,844 INFO  vars are: [8.000000000009925, 2.000000000031432, 34.00000000018694]
+2020-04-10 13:24:36,844 INFO Compared new bestval is: 34.00000000018694 
+ compared to -1e+20
+2020-04-10 13:24:36,845 INFO New bestres is 34.00000000018694
+2020-04-10 13:24:36,845 INFO New bestnode_vars are: [8.000000000009925, 2.000000000031432, 34.00000000018694]
+2020-04-10 13:24:36,847 INFO Current len of heap: 0
+2020-04-10 13:24:36,847 INFO counter is: 12
+2020-04-10 13:24:36,848 INFO node is: <bab_starter.BBTreeNode object at 0x7f21f6bc0c10>
+2020-04-10 13:24:36,848 INFO node vals are [6.49999999930634, 3.000000000315697, 34.4999999994975]
+2020-04-10 13:24:36,848 INFO node vals are [<1×1 Real Variable: x>, <1×1 Real Variable: y>, <1×1 Real Variable: z>]
+2020-04-10 13:24:36,848 INFO Var round is 6
+2020-04-10 13:24:36,848 INFO Var float is 6.49999999930634
+2020-04-10 13:24:36,848 INFO Not integral.
+2020-04-10 13:24:36,848 INFO floor is <bab_starter.BBTreeNode object at 0x7f21f6bc4690>
+2020-04-10 13:24:36,849 INFO floor prob is ----------------------------------------
 Linear Program
   maximize z
   over
     1×1 real variable x, y, z
   subject to
     [5 constraints (1st: z = 3·x + 5·y)]
-    y ≤ 2
+    y ≥ 3
     x ≤ 6
 ----------------------------------------
-2020-04-07 23:02:04,438 INFO floor vars are [6.49999999930634, 3.000000000315697, 34.4999999994975]
-2020-04-07 23:02:04,440 INFO newest counter val: 24 
-Has objective 28.000000005191286
-2020-04-07 23:02:04,441 INFO ceil is: <bab_starter.BBTreeNode object at 0x7f1d2b078e90>
-2020-04-07 23:02:04,441 INFO ceil prob is ----------------------------------------
+2020-04-10 13:24:36,849 INFO floor vars are [6.49999999930634, 3.000000000315697, 34.4999999994975]
+2020-04-10 13:24:36,849 INFO newest counter val: 13 
+Has objective 34.4999999994975
+2020-04-10 13:24:36,849 INFO ceil is: <bab_starter.BBTreeNode object at 0x7f21f6bc65d0>
+2020-04-10 13:24:36,849 INFO ceil prob is ----------------------------------------
 Linear Program
   maximize z
   over
     1×1 real variable x, y, z
   subject to
     [5 constraints (1st: z = 3·x + 5·y)]
-    y ≤ 2
+    y ≥ 3
     x ≥ 7
 ----------------------------------------
-2020-04-07 23:02:04,441 INFO ceil vars are [6.000000002552376, 1.9999999995068307, 28.000000005191286]
-2020-04-07 23:02:04,444 INFO newest counter val: 25 
-Has objective 34.000000000902666
-2020-04-07 23:02:04,444 INFO Current len of heap: 2
-2020-04-07 23:02:04,444 INFO counter is: 23
-2020-04-07 23:02:04,444 INFO node is: <bab_starter.BBTreeNode object at 0x7f1d2b06b790>
-2020-04-07 23:02:04,444 INFO node vals are [7.99999999991796, 2.0000000002297584, 34.000000000902666]
-2020-04-07 23:02:04,444 INFO node vals are [<1×1 Real Variable: x>, <1×1 Real Variable: y>, <1×1 Real Variable: z>]
-2020-04-07 23:02:04,444 INFO Var round is 8
-2020-04-07 23:02:04,444 INFO Var float is 7.99999999991796
-2020-04-07 23:02:04,444 INFO Var round is 2
-2020-04-07 23:02:04,444 INFO Var float is 2.0000000002297584
-2020-04-07 23:02:04,444 INFO Is integral
-2020-04-07 23:02:04,444 INFO  vars are: [7.99999999991796, 2.0000000002297584, 34.000000000902666]
-2020-04-07 23:02:04,444 INFO Compared new bestval is: 34.000000000902666 
- compared to -1e+20
-2020-04-07 23:02:04,444 INFO New bestres is 34.000000000902666
-2020-04-07 23:02:04,445 INFO New bestnode_vars are: [7.99999999991796, 2.0000000002297584, 34.000000000902666]
-2020-04-07 23:02:04,445 INFO Current len of heap: 1
-2020-04-07 23:02:04,445 INFO counter is: 24
-2020-04-07 23:02:04,445 INFO node is: <bab_starter.BBTreeNode object at 0x7f1d2b06ef50>
-2020-04-07 23:02:04,445 INFO node vals are [7.99999999991796, 2.0000000002297584, 34.000000000902666]
-2020-04-07 23:02:04,445 INFO node vals are [<1×1 Real Variable: x>, <1×1 Real Variable: y>, <1×1 Real Variable: z>]
-2020-04-07 23:02:04,445 INFO Var round is 8
-2020-04-07 23:02:04,445 INFO Var float is 7.99999999991796
-2020-04-07 23:02:04,445 INFO Var round is 2
-2020-04-07 23:02:04,445 INFO Var float is 2.0000000002297584
-2020-04-07 23:02:04,445 INFO Is integral
-2020-04-07 23:02:04,445 INFO  vars are: [7.99999999991796, 2.0000000002297584, 34.000000000902666]
-2020-04-07 23:02:04,445 INFO Compared new bestval is: 34.000000000902666 
- compared to 34.000000000902666
-2020-04-07 23:02:04,445 INFO New bestres is 34.000000000902666
-2020-04-07 23:02:04,445 INFO New bestnode_vars are: [7.99999999991796, 2.0000000002297584, 34.000000000902666]
-2020-04-07 23:02:04,445 INFO Current len of heap: 0
-2020-04-07 23:02:04,445 INFO counter is: 25
-2020-04-07 23:02:04,445 INFO node is: <bab_starter.BBTreeNode object at 0x7f1d2b078e90>
-2020-04-07 23:02:04,445 INFO node vals are [7.99999999991796, 2.0000000002297584, 34.000000000902666]
-2020-04-07 23:02:04,445 INFO node vals are [<1×1 Real Variable: x>, <1×1 Real Variable: y>, <1×1 Real Variable: z>]
-2020-04-07 23:02:04,445 INFO Var round is 8
-2020-04-07 23:02:04,446 INFO Var float is 7.99999999991796
-2020-04-07 23:02:04,446 INFO Var round is 2
-2020-04-07 23:02:04,446 INFO Var float is 2.0000000002297584
-2020-04-07 23:02:04,446 INFO Is integral
-2020-04-07 23:02:04,446 INFO  vars are: [7.99999999991796, 2.0000000002297584, 34.000000000902666]
-2020-04-07 23:02:04,446 INFO Compared new bestval is: 34.000000000902666 
- compared to 34.000000000902666
-2020-04-07 23:02:04,446 INFO New bestres is 34.000000000902666
-2020-04-07 23:02:04,446 INFO New bestnode_vars are: [7.99999999991796, 2.0000000002297584, 34.000000000902666]
-2020-04-07 23:02:04,446 INFO Solved everything! bestres: 34.000000000902666 
- bestnode_vars: [7.99999999991796, 2.0000000002297584, 34.000000000902666] 
+2020-04-10 13:24:36,849 INFO ceil vars are [6.49999999930634, 3.000000000315697, 34.4999999994975]
+2020-04-10 13:24:36,852 INFO No valid round up. Exception Code 3: Primal solution state claimed empty but optimality is required (primals=True).
+2020-04-10 13:24:36,855 INFO Current len of heap: 0
+2020-04-10 13:24:36,855 INFO counter is: 13
+2020-04-10 13:24:36,855 INFO node is: <bab_starter.BBTreeNode object at 0x7f21f6bc4690>
+2020-04-10 13:24:36,855 INFO node vals are [5.999999999967735, 3.2499999999925495, 34.24999999986595]
+2020-04-10 13:24:36,855 INFO node vals are [<1×1 Real Variable: x>, <1×1 Real Variable: y>, <1×1 Real Variable: z>]
+2020-04-10 13:24:36,855 INFO Var round is 6
+2020-04-10 13:24:36,856 INFO Var float is 5.999999999967735
+2020-04-10 13:24:36,856 INFO Var round is 3
+2020-04-10 13:24:36,856 INFO Var float is 3.2499999999925495
+2020-04-10 13:24:36,856 INFO Not integral.
+2020-04-10 13:24:36,856 INFO floor is <bab_starter.BBTreeNode object at 0x7f21f6be0c50>
+2020-04-10 13:24:36,856 INFO floor prob is ----------------------------------------
+Linear Program
+  maximize z
+  over
+    1×1 real variable x, y, z
+  subject to
+    [5 constraints (1st: z = 3·x + 5·y)]
+    y ≥ 3
+    x ≤ 6
+    y ≤ 3
+----------------------------------------
+2020-04-10 13:24:36,857 INFO floor vars are [5.999999999967735, 3.2499999999925495, 34.24999999986595]
+2020-04-10 13:24:36,857 INFO newest counter val: 14 
+Has objective 34.24999999986595
+2020-04-10 13:24:36,857 INFO ceil is: <bab_starter.BBTreeNode object at 0x7f21f6be8050>
+2020-04-10 13:24:36,857 INFO ceil prob is ----------------------------------------
+Linear Program
+  maximize z
+  over
+    1×1 real variable x, y, z
+  subject to
+    [5 constraints (1st: z = 3·x + 5·y)]
+    y ≥ 3
+    x ≤ 6
+    y ≥ 4
+----------------------------------------
+2020-04-10 13:24:36,857 INFO ceil vars are [5.999999999967735, 3.2499999999925495, 34.24999999986595]
+2020-04-10 13:24:36,860 INFO newest counter val: 15 
+Has objective 33.4999999998386
+2020-04-10 13:24:36,863 INFO Current len of heap: 1
+2020-04-10 13:24:36,863 INFO counter is: 14
+2020-04-10 13:24:36,863 INFO node is: <bab_starter.BBTreeNode object at 0x7f21f6be0c50>
+2020-04-10 13:24:36,863 INFO node vals are [5.999999999554217, 3.0000000008381202, 33.00000000285325]
+2020-04-10 13:24:36,863 INFO node vals are [<1×1 Real Variable: x>, <1×1 Real Variable: y>, <1×1 Real Variable: z>]
+2020-04-10 13:24:36,864 INFO Bad objective of 33.00000000285325
+2020-04-10 13:24:36,867 INFO Current len of heap: 0
+2020-04-10 13:24:36,867 INFO counter is: 15
+2020-04-10 13:24:36,867 INFO node is: <bab_starter.BBTreeNode object at 0x7f21f6be8050>
+2020-04-10 13:24:36,867 INFO node vals are [4.5000000004203144, 3.9999999997155324, 33.4999999998386]
+2020-04-10 13:24:36,867 INFO node vals are [<1×1 Real Variable: x>, <1×1 Real Variable: y>, <1×1 Real Variable: z>]
+2020-04-10 13:24:36,867 INFO Bad objective of 33.4999999998386
+2020-04-10 13:24:36,867 INFO Solved everything! bestres: 34.00000000018694 
+ bestnode_vars: [8.000000000009925, 2.000000000031432, 34.00000000018694] 
 
 
 
@@ -698,17 +416,17 @@ Has objective 34.000000000902666
 
 
 
-2020-04-07 23:02:04,447 INFO TEST
-2020-04-07 23:02:04,451 INFO Current len of heap: 0
-2020-04-07 23:02:04,451 INFO counter is: 26
-2020-04-07 23:02:04,451 INFO node is: <bab_starter.BBTreeNode object at 0x7f1d2b06b4d0>
-2020-04-07 23:02:04,451 INFO node vals are [2.333333333778274, 2.6666666662165195, 27.666666666190487]
-2020-04-07 23:02:04,451 INFO node vals are [<1×1 Real Variable: x>, <1×1 Real Variable: y>, <1×1 Real Variable: z>]
-2020-04-07 23:02:04,451 INFO Var round is 2
-2020-04-07 23:02:04,451 INFO Var float is 2.333333333778274
-2020-04-07 23:02:04,451 INFO Not integral.
-2020-04-07 23:02:04,451 INFO floor is <bab_starter.BBTreeNode object at 0x7f1d2b049cd0>
-2020-04-07 23:02:04,452 INFO floor prob is ----------------------------------------
+2020-04-10 13:24:36,869 INFO TEST
+2020-04-10 13:24:36,872 INFO Current len of heap: 0
+2020-04-10 13:24:36,872 INFO counter is: 16
+2020-04-10 13:24:36,872 INFO node is: <bab_starter.BBTreeNode object at 0x7f21f6bc4690>
+2020-04-10 13:24:36,872 INFO node vals are [2.333333333778274, 2.6666666662165195, 27.666666666190487]
+2020-04-10 13:24:36,872 INFO node vals are [<1×1 Real Variable: x>, <1×1 Real Variable: y>, <1×1 Real Variable: z>]
+2020-04-10 13:24:36,872 INFO Var round is 2
+2020-04-10 13:24:36,872 INFO Var float is 2.333333333778274
+2020-04-10 13:24:36,872 INFO Not integral.
+2020-04-10 13:24:36,872 INFO floor is <bab_starter.BBTreeNode object at 0x7f21f6b83dd0>
+2020-04-10 13:24:36,873 INFO floor prob is ----------------------------------------
 Linear Program
   maximize z
   over
@@ -717,32 +435,48 @@ Linear Program
     [5 constraints (1st: z = 5·x + 6·y)]
     x ≤ 2
 ----------------------------------------
-2020-04-07 23:02:04,452 INFO floor vars are [2.333333333778274, 2.6666666662165195, 27.666666666190487]
-2020-04-07 23:02:04,454 INFO newest counter val: 27 
+2020-04-10 13:24:36,873 INFO floor vars are [2.333333333778274, 2.6666666662165195, 27.666666666190487]
+2020-04-10 13:24:36,873 INFO newest counter val: 17 
+Has objective 27.666666666190487
+2020-04-10 13:24:36,873 INFO ceil is: <bab_starter.BBTreeNode object at 0x7f21f6bff050>
+2020-04-10 13:24:36,873 INFO ceil prob is ----------------------------------------
+Linear Program
+  maximize z
+  over
+    1×1 real variable x, y, z
+  subject to
+    [5 constraints (1st: z = 5·x + 6·y)]
+    x ≥ 3
+----------------------------------------
+2020-04-10 13:24:36,873 INFO ceil vars are [2.333333333778274, 2.6666666662165195, 27.666666666190487]
+2020-04-10 13:24:36,876 INFO newest counter val: 18 
+Has objective 26.99999999997338
+2020-04-10 13:24:36,879 INFO Current len of heap: 1
+2020-04-10 13:24:36,879 INFO counter is: 17
+2020-04-10 13:24:36,879 INFO node is: <bab_starter.BBTreeNode object at 0x7f21f6b83dd0>
+2020-04-10 13:24:36,879 INFO node vals are [1.999999999808488, 2.857142857029431, 27.142857141219025]
+2020-04-10 13:24:36,879 INFO node vals are [<1×1 Real Variable: x>, <1×1 Real Variable: y>, <1×1 Real Variable: z>]
+2020-04-10 13:24:36,879 INFO Var round is 2
+2020-04-10 13:24:36,879 INFO Var float is 1.999999999808488
+2020-04-10 13:24:36,879 INFO Var round is 3
+2020-04-10 13:24:36,879 INFO Var float is 2.857142857029431
+2020-04-10 13:24:36,879 INFO Not integral.
+2020-04-10 13:24:36,880 INFO floor is <bab_starter.BBTreeNode object at 0x7f21f6b98110>
+2020-04-10 13:24:36,880 INFO floor prob is ----------------------------------------
+Linear Program
+  maximize z
+  over
+    1×1 real variable x, y, z
+  subject to
+    [5 constraints (1st: z = 5·x + 6·y)]
+    x ≤ 2
+    y ≤ 2
+----------------------------------------
+2020-04-10 13:24:36,880 INFO floor vars are [1.999999999808488, 2.857142857029431, 27.142857141219025]
+2020-04-10 13:24:36,880 INFO newest counter val: 19 
 Has objective 27.142857141219025
-2020-04-07 23:02:04,455 INFO ceil is: <bab_starter.BBTreeNode object at 0x7f1d2b00eed0>
-2020-04-07 23:02:04,455 INFO ceil prob is ----------------------------------------
-Linear Program
-  maximize z
-  over
-    1×1 real variable x, y, z
-  subject to
-    [5 constraints (1st: z = 5·x + 6·y)]
-    x ≥ 2
-----------------------------------------
-2020-04-07 23:02:04,455 INFO ceil vars are [1.999999999808488, 2.857142857029431, 27.142857141219025]
-2020-04-07 23:02:04,457 INFO newest counter val: 28 
-Has objective 27.666666666110093
-2020-04-07 23:02:04,457 INFO Current len of heap: 1
-2020-04-07 23:02:04,457 INFO counter is: 27
-2020-04-07 23:02:04,458 INFO node is: <bab_starter.BBTreeNode object at 0x7f1d2b049cd0>
-2020-04-07 23:02:04,458 INFO node vals are [2.33333333457602, 2.6666666655383313, 27.666666666110093]
-2020-04-07 23:02:04,458 INFO node vals are [<1×1 Real Variable: x>, <1×1 Real Variable: y>, <1×1 Real Variable: z>]
-2020-04-07 23:02:04,458 INFO Var round is 2
-2020-04-07 23:02:04,458 INFO Var float is 2.33333333457602
-2020-04-07 23:02:04,458 INFO Not integral.
-2020-04-07 23:02:04,458 INFO floor is <bab_starter.BBTreeNode object at 0x7f1d2b017e10>
-2020-04-07 23:02:04,458 INFO floor prob is ----------------------------------------
+2020-04-10 13:24:36,881 INFO ceil is: <bab_starter.BBTreeNode object at 0x7f21f6b92390>
+2020-04-10 13:24:36,881 INFO ceil prob is ----------------------------------------
 Linear Program
   maximize z
   over
@@ -750,217 +484,40 @@ Linear Program
   subject to
     [5 constraints (1st: z = 5·x + 6·y)]
     x ≤ 2
-    x ≤ 2
-----------------------------------------
-2020-04-07 23:02:04,459 INFO floor vars are [2.33333333457602, 2.6666666655383313, 27.666666666110093]
-2020-04-07 23:02:04,461 INFO newest counter val: 29 
-Has objective 27.14285714087554
-2020-04-07 23:02:04,461 INFO ceil is: <bab_starter.BBTreeNode object at 0x7f1d2b01bf50>
-2020-04-07 23:02:04,462 INFO ceil prob is ----------------------------------------
-Linear Program
-  maximize z
-  over
-    1×1 real variable x, y, z
-  subject to
-    [5 constraints (1st: z = 5·x + 6·y)]
-    x ≤ 2
-    x ≥ 2
-----------------------------------------
-2020-04-07 23:02:04,462 INFO ceil vars are [1.9999999996942757, 2.8571428570673603, 27.14285714087554]
-2020-04-07 23:02:04,464 INFO newest counter val: 30 
-Has objective 27.1428571429185
-2020-04-07 23:02:04,464 INFO Current len of heap: 2
-2020-04-07 23:02:04,464 INFO counter is: 28
-2020-04-07 23:02:04,464 INFO node is: <bab_starter.BBTreeNode object at 0x7f1d2b00eed0>
-2020-04-07 23:02:04,464 INFO node vals are [2.00000000003468, 2.8571428571241837, 27.1428571429185]
-2020-04-07 23:02:04,464 INFO node vals are [<1×1 Real Variable: x>, <1×1 Real Variable: y>, <1×1 Real Variable: z>]
-2020-04-07 23:02:04,464 INFO Var round is 2
-2020-04-07 23:02:04,464 INFO Var float is 2.00000000003468
-2020-04-07 23:02:04,464 INFO Var round is 3
-2020-04-07 23:02:04,464 INFO Var float is 2.8571428571241837
-2020-04-07 23:02:04,465 INFO Not integral.
-2020-04-07 23:02:04,465 INFO floor is <bab_starter.BBTreeNode object at 0x7f1d2b01f350>
-2020-04-07 23:02:04,465 INFO floor prob is ----------------------------------------
-Linear Program
-  maximize z
-  over
-    1×1 real variable x, y, z
-  subject to
-    [5 constraints (1st: z = 5·x + 6·y)]
-    x ≥ 2
-    y ≤ 2
-----------------------------------------
-2020-04-07 23:02:04,465 INFO floor vars are [2.00000000003468, 2.8571428571241837, 27.1428571429185]
-2020-04-07 23:02:04,469 INFO newest counter val: 31 
-Has objective 27.000000000062588
-2020-04-07 23:02:04,469 INFO ceil is: <bab_starter.BBTreeNode object at 0x7f1d2b033e10>
-2020-04-07 23:02:04,469 INFO ceil prob is ----------------------------------------
-Linear Program
-  maximize z
-  over
-    1×1 real variable x, y, z
-  subject to
-    [5 constraints (1st: z = 5·x + 6·y)]
-    x ≥ 2
-    y ≥ 2
-----------------------------------------
-2020-04-07 23:02:04,469 INFO ceil vars are [3.0000000000775184, 1.9999999999458333, 27.000000000062588]
-2020-04-07 23:02:04,472 INFO newest counter val: 32 
-Has objective 27.666666666029975
-2020-04-07 23:02:04,472 INFO Current len of heap: 3
-2020-04-07 23:02:04,472 INFO counter is: 29
-2020-04-07 23:02:04,472 INFO node is: <bab_starter.BBTreeNode object at 0x7f1d2b017e10>
-2020-04-07 23:02:04,472 INFO node vals are [2.333333333799222, 2.666666666172311, 27.666666666029975]
-2020-04-07 23:02:04,472 INFO node vals are [<1×1 Real Variable: x>, <1×1 Real Variable: y>, <1×1 Real Variable: z>]
-2020-04-07 23:02:04,472 INFO Var round is 2
-2020-04-07 23:02:04,472 INFO Var float is 2.333333333799222
-2020-04-07 23:02:04,472 INFO Not integral.
-2020-04-07 23:02:04,472 INFO floor is <bab_starter.BBTreeNode object at 0x7f1d2b038990>
-2020-04-07 23:02:04,473 INFO floor prob is ----------------------------------------
-Linear Program
-  maximize z
-  over
-    1×1 real variable x, y, z
-  subject to
-    [5 constraints (1st: z = 5·x + 6·y)]
-    x ≤ 2
-    x ≤ 2
-    x ≤ 2
-----------------------------------------
-2020-04-07 23:02:04,473 INFO floor vars are [2.333333333799222, 2.666666666172311, 27.666666666029975]
-2020-04-07 23:02:04,475 INFO newest counter val: 33 
-Has objective 27.142857141042604
-2020-04-07 23:02:04,475 INFO ceil is: <bab_starter.BBTreeNode object at 0x7f1d2afc8110>
-2020-04-07 23:02:04,476 INFO ceil prob is ----------------------------------------
-Linear Program
-  maximize z
-  over
-    1×1 real variable x, y, z
-  subject to
-    [5 constraints (1st: z = 5·x + 6·y)]
-    x ≤ 2
-    x ≤ 2
-    x ≥ 2
-----------------------------------------
-2020-04-07 23:02:04,476 INFO ceil vars are [1.999999999684902, 2.8571428571030157, 27.142857141042604]
-2020-04-07 23:02:04,479 INFO newest counter val: 34 
-Has objective 27.14285714289958
-2020-04-07 23:02:04,479 INFO Current len of heap: 4
-2020-04-07 23:02:04,479 INFO counter is: 30
-2020-04-07 23:02:04,479 INFO node is: <bab_starter.BBTreeNode object at 0x7f1d2b01bf50>
-2020-04-07 23:02:04,479 INFO node vals are [2.0000000000211196, 2.8571428571323305, 27.14285714289958]
-2020-04-07 23:02:04,479 INFO node vals are [<1×1 Real Variable: x>, <1×1 Real Variable: y>, <1×1 Real Variable: z>]
-2020-04-07 23:02:04,479 INFO Var round is 2
-2020-04-07 23:02:04,479 INFO Var float is 2.0000000000211196
-2020-04-07 23:02:04,479 INFO Var round is 3
-2020-04-07 23:02:04,479 INFO Var float is 2.8571428571323305
-2020-04-07 23:02:04,479 INFO Not integral.
-2020-04-07 23:02:04,479 INFO floor is <bab_starter.BBTreeNode object at 0x7f1d2b044490>
-2020-04-07 23:02:04,479 INFO floor prob is ----------------------------------------
-Linear Program
-  maximize z
-  over
-    1×1 real variable x, y, z
-  subject to
-    [5 constraints (1st: z = 5·x + 6·y)]
-    x ≤ 2
-    x ≥ 2
-    y ≤ 2
-----------------------------------------
-2020-04-07 23:02:04,480 INFO floor vars are [2.0000000000211196, 2.8571428571323305, 27.14285714289958]
-2020-04-07 23:02:04,482 INFO newest counter val: 35 
-Has objective 22.000000000359442
-2020-04-07 23:02:04,482 INFO ceil is: <bab_starter.BBTreeNode object at 0x7f1d2afd5e50>
-2020-04-07 23:02:04,483 INFO ceil prob is ----------------------------------------
-Linear Program
-  maximize z
-  over
-    1×1 real variable x, y, z
-  subject to
-    [5 constraints (1st: z = 5·x + 6·y)]
-    x ≤ 2
-    x ≥ 2
     y ≥ 3
 ----------------------------------------
-2020-04-07 23:02:04,483 INFO ceil vars are [2.0000000000348805, 2.0000000000308393, 22.000000000359442]
-2020-04-07 23:02:04,486 INFO No valid round up. Exception Code 3: Primal solution state claimed empty but optimality is required (primals=True).
-2020-04-07 23:02:04,486 INFO Current len of heap: 4
-2020-04-07 23:02:04,486 INFO counter is: 31
-2020-04-07 23:02:04,486 INFO node is: <bab_starter.BBTreeNode object at 0x7f1d2b01f350>
-2020-04-07 23:02:04,486 INFO node vals are [2.0000000000348805, 2.0000000000308393, 22.000000000359442]
-2020-04-07 23:02:04,486 INFO node vals are [<1×1 Real Variable: x>, <1×1 Real Variable: y>, <1×1 Real Variable: z>]
-2020-04-07 23:02:04,486 INFO Var round is 2
-2020-04-07 23:02:04,486 INFO Var float is 2.0000000000348805
-2020-04-07 23:02:04,486 INFO Var round is 2
-2020-04-07 23:02:04,486 INFO Var float is 2.0000000000308393
-2020-04-07 23:02:04,486 INFO Is integral
-2020-04-07 23:02:04,486 INFO  vars are: [2.0000000000348805, 2.0000000000308393, 22.000000000359442]
-2020-04-07 23:02:04,486 INFO Compared new bestval is: 22.000000000359442 
+2020-04-10 13:24:36,881 INFO ceil vars are [1.999999999808488, 2.857142857029431, 27.142857141219025]
+2020-04-10 13:24:36,885 INFO newest counter val: 20 
+Has objective 26.750000000057305
+2020-04-10 13:24:36,888 INFO Current len of heap: 2
+2020-04-10 13:24:36,888 INFO counter is: 18
+2020-04-10 13:24:36,888 INFO node is: <bab_starter.BBTreeNode object at 0x7f21f6bff050>
+2020-04-10 13:24:36,888 INFO node vals are [3.000000000161568, 1.9999999998609235, 26.99999999997338]
+2020-04-10 13:24:36,888 INFO node vals are [<1×1 Real Variable: x>, <1×1 Real Variable: y>, <1×1 Real Variable: z>]
+2020-04-10 13:24:36,888 INFO Var round is 3
+2020-04-10 13:24:36,888 INFO Var float is 3.000000000161568
+2020-04-10 13:24:36,889 INFO Var round is 2
+2020-04-10 13:24:36,889 INFO Var float is 1.9999999998609235
+2020-04-10 13:24:36,889 INFO Is integral
+2020-04-10 13:24:36,889 INFO  vars are: [3.000000000161568, 1.9999999998609235, 26.99999999997338]
+2020-04-10 13:24:36,889 INFO Compared new bestval is: 26.99999999997338 
  compared to -1e+20
-2020-04-07 23:02:04,487 INFO New bestres is 22.000000000359442
-2020-04-07 23:02:04,487 INFO New bestnode_vars are: [2.0000000000348805, 2.0000000000308393, 22.000000000359442]
-2020-04-07 23:02:04,487 INFO Current len of heap: 3
-2020-04-07 23:02:04,487 INFO counter is: 32
-2020-04-07 23:02:04,487 INFO node is: <bab_starter.BBTreeNode object at 0x7f1d2b033e10>
-2020-04-07 23:02:04,487 INFO node vals are [2.0000000000348805, 2.0000000000308393, 22.000000000359442]
-2020-04-07 23:02:04,487 INFO node vals are [<1×1 Real Variable: x>, <1×1 Real Variable: y>, <1×1 Real Variable: z>]
-2020-04-07 23:02:04,487 INFO Var round is 2
-2020-04-07 23:02:04,487 INFO Var float is 2.0000000000348805
-2020-04-07 23:02:04,487 INFO Var round is 2
-2020-04-07 23:02:04,487 INFO Var float is 2.0000000000308393
-2020-04-07 23:02:04,487 INFO Is integral
-2020-04-07 23:02:04,487 INFO  vars are: [2.0000000000348805, 2.0000000000308393, 22.000000000359442]
-2020-04-07 23:02:04,487 INFO Compared new bestval is: 22.000000000359442 
- compared to 22.000000000359442
-2020-04-07 23:02:04,487 INFO New bestres is 22.000000000359442
-2020-04-07 23:02:04,488 INFO New bestnode_vars are: [2.0000000000348805, 2.0000000000308393, 22.000000000359442]
-2020-04-07 23:02:04,488 INFO Current len of heap: 2
-2020-04-07 23:02:04,488 INFO counter is: 33
-2020-04-07 23:02:04,488 INFO node is: <bab_starter.BBTreeNode object at 0x7f1d2b038990>
-2020-04-07 23:02:04,488 INFO node vals are [2.0000000000348805, 2.0000000000308393, 22.000000000359442]
-2020-04-07 23:02:04,488 INFO node vals are [<1×1 Real Variable: x>, <1×1 Real Variable: y>, <1×1 Real Variable: z>]
-2020-04-07 23:02:04,488 INFO Var round is 2
-2020-04-07 23:02:04,488 INFO Var float is 2.0000000000348805
-2020-04-07 23:02:04,488 INFO Var round is 2
-2020-04-07 23:02:04,488 INFO Var float is 2.0000000000308393
-2020-04-07 23:02:04,488 INFO Is integral
-2020-04-07 23:02:04,488 INFO  vars are: [2.0000000000348805, 2.0000000000308393, 22.000000000359442]
-2020-04-07 23:02:04,488 INFO Compared new bestval is: 22.000000000359442 
- compared to 22.000000000359442
-2020-04-07 23:02:04,488 INFO New bestres is 22.000000000359442
-2020-04-07 23:02:04,488 INFO New bestnode_vars are: [2.0000000000348805, 2.0000000000308393, 22.000000000359442]
-2020-04-07 23:02:04,488 INFO Current len of heap: 1
-2020-04-07 23:02:04,488 INFO counter is: 34
-2020-04-07 23:02:04,488 INFO node is: <bab_starter.BBTreeNode object at 0x7f1d2afc8110>
-2020-04-07 23:02:04,488 INFO node vals are [2.0000000000348805, 2.0000000000308393, 22.000000000359442]
-2020-04-07 23:02:04,488 INFO node vals are [<1×1 Real Variable: x>, <1×1 Real Variable: y>, <1×1 Real Variable: z>]
-2020-04-07 23:02:04,488 INFO Var round is 2
-2020-04-07 23:02:04,489 INFO Var float is 2.0000000000348805
-2020-04-07 23:02:04,489 INFO Var round is 2
-2020-04-07 23:02:04,489 INFO Var float is 2.0000000000308393
-2020-04-07 23:02:04,489 INFO Is integral
-2020-04-07 23:02:04,489 INFO  vars are: [2.0000000000348805, 2.0000000000308393, 22.000000000359442]
-2020-04-07 23:02:04,489 INFO Compared new bestval is: 22.000000000359442 
- compared to 22.000000000359442
-2020-04-07 23:02:04,489 INFO New bestres is 22.000000000359442
-2020-04-07 23:02:04,489 INFO New bestnode_vars are: [2.0000000000348805, 2.0000000000308393, 22.000000000359442]
-2020-04-07 23:02:04,489 INFO Current len of heap: 0
-2020-04-07 23:02:04,489 INFO counter is: 35
-2020-04-07 23:02:04,489 INFO node is: <bab_starter.BBTreeNode object at 0x7f1d2b044490>
-2020-04-07 23:02:04,489 INFO node vals are [2.0000000000348805, 2.0000000000308393, 22.000000000359442]
-2020-04-07 23:02:04,489 INFO node vals are [<1×1 Real Variable: x>, <1×1 Real Variable: y>, <1×1 Real Variable: z>]
-2020-04-07 23:02:04,489 INFO Var round is 2
-2020-04-07 23:02:04,489 INFO Var float is 2.0000000000348805
-2020-04-07 23:02:04,489 INFO Var round is 2
-2020-04-07 23:02:04,489 INFO Var float is 2.0000000000308393
-2020-04-07 23:02:04,489 INFO Is integral
-2020-04-07 23:02:04,490 INFO  vars are: [2.0000000000348805, 2.0000000000308393, 22.000000000359442]
-2020-04-07 23:02:04,490 INFO Compared new bestval is: 22.000000000359442 
- compared to 22.000000000359442
-2020-04-07 23:02:04,490 INFO New bestres is 22.000000000359442
-2020-04-07 23:02:04,490 INFO New bestnode_vars are: [2.0000000000348805, 2.0000000000308393, 22.000000000359442]
-2020-04-07 23:02:04,490 INFO Solved everything! bestres: 22.000000000359442 
- bestnode_vars: [2.0000000000348805, 2.0000000000308393, 22.000000000359442] 
+2020-04-10 13:24:36,889 INFO New bestres is 26.99999999997338
+2020-04-10 13:24:36,889 INFO New bestnode_vars are: [3.000000000161568, 1.9999999998609235, 26.99999999997338]
+2020-04-10 13:24:36,892 INFO Current len of heap: 1
+2020-04-10 13:24:36,892 INFO counter is: 19
+2020-04-10 13:24:36,892 INFO node is: <bab_starter.BBTreeNode object at 0x7f21f6b98110>
+2020-04-10 13:24:36,892 INFO node vals are [2.00000000001217, 2.00000000002676, 22.00000000022141]
+2020-04-10 13:24:36,892 INFO node vals are [<1×1 Real Variable: x>, <1×1 Real Variable: y>, <1×1 Real Variable: z>]
+2020-04-10 13:24:36,892 INFO Bad objective of 22.00000000022141
+2020-04-10 13:24:36,895 INFO Current len of heap: 0
+2020-04-10 13:24:36,895 INFO counter is: 20
+2020-04-10 13:24:36,895 INFO node is: <bab_starter.BBTreeNode object at 0x7f21f6b92390>
+2020-04-10 13:24:36,895 INFO node vals are [1.7500000000232596, 2.999999999990168, 26.750000000057305]
+2020-04-10 13:24:36,896 INFO node vals are [<1×1 Real Variable: x>, <1×1 Real Variable: y>, <1×1 Real Variable: z>]
+2020-04-10 13:24:36,896 INFO Bad objective of 26.750000000057305
+2020-04-10 13:24:36,896 INFO Solved everything! bestres: 26.99999999997338 
+ bestnode_vars: [3.000000000161568, 1.9999999998609235, 26.99999999997338] 
 
 
 
@@ -969,25 +526,25 @@ Linear Program
 
 
 
-2020-04-07 23:02:04,490 INFO Problem 5 results: 
-res 22.000000000359442 
- sol_vars: [2.0000000000348805, 2.0000000000308393, 22.000000000359442] 
+2020-04-10 13:24:36,896 INFO Problem 5 results: 
+res 26.99999999997338 
+ sol_vars: [3.000000000161568, 1.9999999998609235, 26.99999999997338] 
 
-2020-04-07 23:02:04,493 INFO TEST
-2020-04-07 23:02:04,496 INFO Current len of heap: 0
-2020-04-07 23:02:04,496 INFO counter is: 36
-2020-04-07 23:02:04,496 INFO node is: <bab_starter.BBTreeNode object at 0x7f1d2afcd250>
-2020-04-07 23:02:04,496 INFO node vals are [1.1840049042380302e-11, 0.99999999999989, 0.8571428571334482, 0.9999999999988899, 0.9999999999996567, 60.42857142855891]
-2020-04-07 23:02:04,496 INFO node vals are [<1×1 Real Variable: x>, <1×1 Real Variable: y>, <1×1 Real Variable: a>, <1×1 Real Variable: b>, <1×1 Real Variable: c>, <1×1 Real Variable: z>]
-2020-04-07 23:02:04,496 INFO Var round is 0
-2020-04-07 23:02:04,496 INFO Var float is 1.1840049042380302e-11
-2020-04-07 23:02:04,497 INFO Var round is 1
-2020-04-07 23:02:04,497 INFO Var float is 0.99999999999989
-2020-04-07 23:02:04,497 INFO Var round is 1
-2020-04-07 23:02:04,497 INFO Var float is 0.8571428571334482
-2020-04-07 23:02:04,497 INFO Not integral.
-2020-04-07 23:02:04,497 INFO floor is <bab_starter.BBTreeNode object at 0x7f1d2afedf90>
-2020-04-07 23:02:04,497 INFO floor prob is ----------------------------------------------------------------
+2020-04-10 13:24:36,899 INFO TEST
+2020-04-10 13:24:36,903 INFO Current len of heap: 0
+2020-04-10 13:24:36,903 INFO counter is: 21
+2020-04-10 13:24:36,904 INFO node is: <bab_starter.BBTreeNode object at 0x7f21f6b83dd0>
+2020-04-10 13:24:36,904 INFO node vals are [1.1840049042380302e-11, 0.99999999999989, 0.8571428571334482, 0.9999999999988899, 0.9999999999996567, 60.42857142855891]
+2020-04-10 13:24:36,904 INFO node vals are [<1×1 Real Variable: x>, <1×1 Real Variable: y>, <1×1 Real Variable: a>, <1×1 Real Variable: b>, <1×1 Real Variable: c>, <1×1 Real Variable: z>]
+2020-04-10 13:24:36,904 INFO Var round is 0
+2020-04-10 13:24:36,904 INFO Var float is 1.1840049042380302e-11
+2020-04-10 13:24:36,904 INFO Var round is 1
+2020-04-10 13:24:36,904 INFO Var float is 0.99999999999989
+2020-04-10 13:24:36,904 INFO Var round is 1
+2020-04-10 13:24:36,904 INFO Var float is 0.8571428571334482
+2020-04-10 13:24:36,904 INFO Not integral.
+2020-04-10 13:24:36,904 INFO floor is <bab_starter.BBTreeNode object at 0x7f21f6bb6490>
+2020-04-10 13:24:36,905 INFO floor prob is ----------------------------------------------------------------
 Linear Program
   maximize z
   over
@@ -996,11 +553,11 @@ Linear Program
     [12 constraints (1st: z = 15·x + 20·y + 18·a + 13·b + 12·c)]
     a ≤ 0
 ----------------------------------------------------------------
-2020-04-07 23:02:04,497 INFO floor vars are [1.1840049042380302e-11, 0.99999999999989, 0.8571428571334482, 0.9999999999988899, 0.9999999999996567, 60.42857142855891]
-2020-04-07 23:02:04,501 INFO newest counter val: 37 
-Has objective 59.99999999998905
-2020-04-07 23:02:04,501 INFO ceil is: <bab_starter.BBTreeNode object at 0x7f1d2aff1210>
-2020-04-07 23:02:04,502 INFO ceil prob is ----------------------------------------------------------------
+2020-04-10 13:24:36,905 INFO floor vars are [1.1840049042380302e-11, 0.99999999999989, 0.8571428571334482, 0.9999999999988899, 0.9999999999996567, 60.42857142855891]
+2020-04-10 13:24:36,905 INFO newest counter val: 22 
+Has objective 60.42857142855891
+2020-04-10 13:24:36,906 INFO ceil is: <bab_starter.BBTreeNode object at 0x7f21f6b40110>
+2020-04-10 13:24:36,906 INFO ceil prob is ----------------------------------------------------------------
 Linear Program
   maximize z
   over
@@ -1009,118 +566,38 @@ Linear Program
     [12 constraints (1st: z = 15·x + 20·y + 18·a + 13·b + 12·c)]
     a ≥ 1
 ----------------------------------------------------------------
-2020-04-07 23:02:04,502 INFO ceil vars are [0.9999999999948318, 1.0000000000016291, 1.4425890730574597e-12, 1.0000000000002804, 1.0000000000003644, 59.99999999998905]
-2020-04-07 23:02:04,505 INFO newest counter val: 38 
+2020-04-10 13:24:36,906 INFO ceil vars are [1.1840049042380302e-11, 0.99999999999989, 0.8571428571334482, 0.9999999999988899, 0.9999999999996567, 60.42857142855891]
+2020-04-10 13:24:36,910 INFO newest counter val: 23 
 Has objective 59.72727272722595
-2020-04-07 23:02:04,505 INFO Current len of heap: 1
-2020-04-07 23:02:04,505 INFO counter is: 37
-2020-04-07 23:02:04,505 INFO node is: <bab_starter.BBTreeNode object at 0x7f1d2afedf90>
-2020-04-07 23:02:04,505 INFO node vals are [-5.3713186710233795e-12, 1.000000000009452, 0.9999999999903201, 0.9999999998500895, 0.7272727274367137, 59.72727272722595]
-2020-04-07 23:02:04,505 INFO node vals are [<1×1 Real Variable: x>, <1×1 Real Variable: y>, <1×1 Real Variable: a>, <1×1 Real Variable: b>, <1×1 Real Variable: c>, <1×1 Real Variable: z>]
-2020-04-07 23:02:04,505 INFO Var round is 0
-2020-04-07 23:02:04,505 INFO Var float is -5.3713186710233795e-12
-2020-04-07 23:02:04,506 INFO Var round is 1
-2020-04-07 23:02:04,506 INFO Var float is 1.000000000009452
-2020-04-07 23:02:04,506 INFO Var round is 1
-2020-04-07 23:02:04,506 INFO Var float is 0.9999999999903201
-2020-04-07 23:02:04,506 INFO Var round is 1
-2020-04-07 23:02:04,506 INFO Var float is 0.9999999998500895
-2020-04-07 23:02:04,506 INFO Var round is 1
-2020-04-07 23:02:04,506 INFO Var float is 0.7272727274367137
-2020-04-07 23:02:04,506 INFO Not integral.
-2020-04-07 23:02:04,506 INFO floor is <bab_starter.BBTreeNode object at 0x7f1d2b001b50>
-2020-04-07 23:02:04,506 INFO floor prob is ----------------------------------------------------------------
-Linear Program
-  maximize z
-  over
-    1×1 real variable a, b, c, x, y, z
-  subject to
-    [12 constraints (1st: z = 15·x + 20·y + 18·a + 13·b + 12·c)]
-    a ≤ 0
-    c ≤ 0
-----------------------------------------------------------------
-2020-04-07 23:02:04,507 INFO floor vars are [-5.3713186710233795e-12, 1.000000000009452, 0.9999999999903201, 0.9999999998500895, 0.7272727274367137, 59.72727272722595]
-2020-04-07 23:02:04,510 INFO newest counter val: 39 
-Has objective 48.00000000007971
-2020-04-07 23:02:04,511 INFO ceil is: <bab_starter.BBTreeNode object at 0x7f1d2af8f810>
-2020-04-07 23:02:04,511 INFO ceil prob is ----------------------------------------------------------------
-Linear Program
-  maximize z
-  over
-    1×1 real variable a, b, c, x, y, z
-  subject to
-    [12 constraints (1st: z = 15·x + 20·y + 18·a + 13·b + 12·c)]
-    a ≤ 0
-    c ≥ 1
-----------------------------------------------------------------
-2020-04-07 23:02:04,511 INFO ceil vars are [1.0000000000005966, 1.0000000000017932, 1.3198879824585426e-12, 0.999999999999948, 9.842555067895654e-13, 48.00000000007971]
-2020-04-07 23:02:04,514 INFO newest counter val: 40 
-Has objective 59.999999999989065
-2020-04-07 23:02:04,514 INFO Current len of heap: 2
-2020-04-07 23:02:04,514 INFO counter is: 38
-2020-04-07 23:02:04,514 INFO node is: <bab_starter.BBTreeNode object at 0x7f1d2aff1210>
-2020-04-07 23:02:04,514 INFO node vals are [0.9999999999941908, 1.0000000000024816, 1.0707970344185759e-12, 1.0000000000000488, 1.0000000000005544, 59.999999999989065]
-2020-04-07 23:02:04,514 INFO node vals are [<1×1 Real Variable: x>, <1×1 Real Variable: y>, <1×1 Real Variable: a>, <1×1 Real Variable: b>, <1×1 Real Variable: c>, <1×1 Real Variable: z>]
-2020-04-07 23:02:04,515 INFO Var round is 1
-2020-04-07 23:02:04,515 INFO Var float is 0.9999999999941908
-2020-04-07 23:02:04,515 INFO Var round is 1
-2020-04-07 23:02:04,515 INFO Var float is 1.0000000000024816
-2020-04-07 23:02:04,515 INFO Var round is 0
-2020-04-07 23:02:04,515 INFO Var float is 1.0707970344185759e-12
-2020-04-07 23:02:04,515 INFO Var round is 1
-2020-04-07 23:02:04,515 INFO Var float is 1.0000000000000488
-2020-04-07 23:02:04,515 INFO Var round is 1
-2020-04-07 23:02:04,515 INFO Var float is 1.0000000000005544
-2020-04-07 23:02:04,515 INFO Is integral
-2020-04-07 23:02:04,515 INFO  vars are: [0.9999999999941908, 1.0000000000024816, 1.0707970344185759e-12, 1.0000000000000488, 1.0000000000005544, 59.999999999989065]
-2020-04-07 23:02:04,515 INFO Compared new bestval is: 59.999999999989065 
+2020-04-10 13:24:36,914 INFO Current len of heap: 1
+2020-04-10 13:24:36,914 INFO counter is: 22
+2020-04-10 13:24:36,914 INFO node is: <bab_starter.BBTreeNode object at 0x7f21f6bb6490>
+2020-04-10 13:24:36,914 INFO node vals are [0.9999999999948318, 1.0000000000016291, 1.4425890730574597e-12, 1.0000000000002804, 1.0000000000003644, 59.99999999998905]
+2020-04-10 13:24:36,915 INFO node vals are [<1×1 Real Variable: x>, <1×1 Real Variable: y>, <1×1 Real Variable: a>, <1×1 Real Variable: b>, <1×1 Real Variable: c>, <1×1 Real Variable: z>]
+2020-04-10 13:24:36,915 INFO Var round is 1
+2020-04-10 13:24:36,915 INFO Var float is 0.9999999999948318
+2020-04-10 13:24:36,915 INFO Var round is 1
+2020-04-10 13:24:36,915 INFO Var float is 1.0000000000016291
+2020-04-10 13:24:36,915 INFO Var round is 0
+2020-04-10 13:24:36,915 INFO Var float is 1.4425890730574597e-12
+2020-04-10 13:24:36,915 INFO Var round is 1
+2020-04-10 13:24:36,915 INFO Var float is 1.0000000000002804
+2020-04-10 13:24:36,915 INFO Var round is 1
+2020-04-10 13:24:36,915 INFO Var float is 1.0000000000003644
+2020-04-10 13:24:36,915 INFO Is integral
+2020-04-10 13:24:36,915 INFO  vars are: [0.9999999999948318, 1.0000000000016291, 1.4425890730574597e-12, 1.0000000000002804, 1.0000000000003644, 59.99999999998905]
+2020-04-10 13:24:36,915 INFO Compared new bestval is: 59.99999999998905 
  compared to -1e+20
-2020-04-07 23:02:04,515 INFO New bestres is 59.999999999989065
-2020-04-07 23:02:04,515 INFO New bestnode_vars are: [0.9999999999941908, 1.0000000000024816, 1.0707970344185759e-12, 1.0000000000000488, 1.0000000000005544, 59.999999999989065]
-2020-04-07 23:02:04,516 INFO Current len of heap: 1
-2020-04-07 23:02:04,516 INFO counter is: 39
-2020-04-07 23:02:04,516 INFO node is: <bab_starter.BBTreeNode object at 0x7f1d2b001b50>
-2020-04-07 23:02:04,516 INFO node vals are [0.9999999999941908, 1.0000000000024816, 1.0707970344185759e-12, 1.0000000000000488, 1.0000000000005544, 59.999999999989065]
-2020-04-07 23:02:04,516 INFO node vals are [<1×1 Real Variable: x>, <1×1 Real Variable: y>, <1×1 Real Variable: a>, <1×1 Real Variable: b>, <1×1 Real Variable: c>, <1×1 Real Variable: z>]
-2020-04-07 23:02:04,516 INFO Var round is 1
-2020-04-07 23:02:04,516 INFO Var float is 0.9999999999941908
-2020-04-07 23:02:04,516 INFO Var round is 1
-2020-04-07 23:02:04,516 INFO Var float is 1.0000000000024816
-2020-04-07 23:02:04,516 INFO Var round is 0
-2020-04-07 23:02:04,516 INFO Var float is 1.0707970344185759e-12
-2020-04-07 23:02:04,516 INFO Var round is 1
-2020-04-07 23:02:04,516 INFO Var float is 1.0000000000000488
-2020-04-07 23:02:04,516 INFO Var round is 1
-2020-04-07 23:02:04,516 INFO Var float is 1.0000000000005544
-2020-04-07 23:02:04,516 INFO Is integral
-2020-04-07 23:02:04,517 INFO  vars are: [0.9999999999941908, 1.0000000000024816, 1.0707970344185759e-12, 1.0000000000000488, 1.0000000000005544, 59.999999999989065]
-2020-04-07 23:02:04,517 INFO Compared new bestval is: 59.999999999989065 
- compared to 59.999999999989065
-2020-04-07 23:02:04,517 INFO New bestres is 59.999999999989065
-2020-04-07 23:02:04,517 INFO New bestnode_vars are: [0.9999999999941908, 1.0000000000024816, 1.0707970344185759e-12, 1.0000000000000488, 1.0000000000005544, 59.999999999989065]
-2020-04-07 23:02:04,517 INFO Current len of heap: 0
-2020-04-07 23:02:04,517 INFO counter is: 40
-2020-04-07 23:02:04,517 INFO node is: <bab_starter.BBTreeNode object at 0x7f1d2af8f810>
-2020-04-07 23:02:04,517 INFO node vals are [0.9999999999941908, 1.0000000000024816, 1.0707970344185759e-12, 1.0000000000000488, 1.0000000000005544, 59.999999999989065]
-2020-04-07 23:02:04,517 INFO node vals are [<1×1 Real Variable: x>, <1×1 Real Variable: y>, <1×1 Real Variable: a>, <1×1 Real Variable: b>, <1×1 Real Variable: c>, <1×1 Real Variable: z>]
-2020-04-07 23:02:04,517 INFO Var round is 1
-2020-04-07 23:02:04,517 INFO Var float is 0.9999999999941908
-2020-04-07 23:02:04,517 INFO Var round is 1
-2020-04-07 23:02:04,518 INFO Var float is 1.0000000000024816
-2020-04-07 23:02:04,518 INFO Var round is 0
-2020-04-07 23:02:04,518 INFO Var float is 1.0707970344185759e-12
-2020-04-07 23:02:04,518 INFO Var round is 1
-2020-04-07 23:02:04,518 INFO Var float is 1.0000000000000488
-2020-04-07 23:02:04,518 INFO Var round is 1
-2020-04-07 23:02:04,518 INFO Var float is 1.0000000000005544
-2020-04-07 23:02:04,518 INFO Is integral
-2020-04-07 23:02:04,518 INFO  vars are: [0.9999999999941908, 1.0000000000024816, 1.0707970344185759e-12, 1.0000000000000488, 1.0000000000005544, 59.999999999989065]
-2020-04-07 23:02:04,518 INFO Compared new bestval is: 59.999999999989065 
- compared to 59.999999999989065
-2020-04-07 23:02:04,518 INFO New bestres is 59.999999999989065
-2020-04-07 23:02:04,518 INFO New bestnode_vars are: [0.9999999999941908, 1.0000000000024816, 1.0707970344185759e-12, 1.0000000000000488, 1.0000000000005544, 59.999999999989065]
-2020-04-07 23:02:04,518 INFO Solved everything! bestres: 59.999999999989065 
- bestnode_vars: [0.9999999999941908, 1.0000000000024816, 1.0707970344185759e-12, 1.0000000000000488, 1.0000000000005544, 59.999999999989065] 
+2020-04-10 13:24:36,916 INFO New bestres is 59.99999999998905
+2020-04-10 13:24:36,916 INFO New bestnode_vars are: [0.9999999999948318, 1.0000000000016291, 1.4425890730574597e-12, 1.0000000000002804, 1.0000000000003644, 59.99999999998905]
+2020-04-10 13:24:36,919 INFO Current len of heap: 0
+2020-04-10 13:24:36,920 INFO counter is: 23
+2020-04-10 13:24:36,920 INFO node is: <bab_starter.BBTreeNode object at 0x7f21f6b40110>
+2020-04-10 13:24:36,920 INFO node vals are [-5.3713186710233795e-12, 1.000000000009452, 0.9999999999903201, 0.9999999998500895, 0.7272727274367137, 59.72727272722595]
+2020-04-10 13:24:36,920 INFO node vals are [<1×1 Real Variable: x>, <1×1 Real Variable: y>, <1×1 Real Variable: a>, <1×1 Real Variable: b>, <1×1 Real Variable: c>, <1×1 Real Variable: z>]
+2020-04-10 13:24:36,920 INFO Bad objective of 59.72727272722595
+2020-04-10 13:24:36,920 INFO Solved everything! bestres: 59.99999999998905 
+ bestnode_vars: [0.9999999999948318, 1.0000000000016291, 1.4425890730574597e-12, 1.0000000000002804, 1.0000000000003644, 59.99999999998905] 
 
 
 

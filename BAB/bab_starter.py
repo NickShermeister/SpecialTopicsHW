@@ -81,14 +81,15 @@ class BBTreeNode():
         # these lines build up the initial problem and adds it to a heap
         logging.info(f'TEST')
         root = self
-        res = root.buildProblem().solve(solver=SOLVER)
+        res = root.buildProblem() #.solve(solver=SOLVER)
         heap = [(next(counter), root)]
         bestres = -1e20 # a small arbitrary initial best objective value
-        bestnode_vars = [float(x.value) for x in root.vars] # initialize bestnode_vars to the root vars
+        bestnode_vars = [] # [float(x.value) for x in root.vars] # initialize bestnode_vars to the root vars
 
         #TODO: fill this part in
         while len(heap) > 0:
             curr = heap.pop(0)
+            curr[1].prob.solve(solver=SOLVER)
             logging.info(f'Current len of heap: {len(heap)}')
             logging.info(f'counter is: {curr[0]}')
             logging.info(f'node is: {curr[1]}')
@@ -125,10 +126,8 @@ class BBTreeNode():
                     logging.info(f'floor is {floor}')
                     logging.info(f'floor prob is {floor.prob}')
                     logging.info(f'floor vars are {[float(x) for x in floor.vars]}')
-                    floor_ans = floor.prob.solve(solver=SOLVER)
-                    if floor.objective > bestres:
-                        heap.append((next(counter), floor))
-                        logging.info(f'newest counter val: {heap[-1][0]} \nHas objective {float(floor.objective)}')
+                    heap.append((next(counter), floor))
+                    logging.info(f'newest counter val: {heap[-1][0]} \nHas objective {float(floor.objective)}')
                 except Exception as e:
                     logging.info(f'No valid round down. Exception {e}')
 
@@ -138,9 +137,8 @@ class BBTreeNode():
                     logging.info(f'ceil prob is {ceil.prob}')
                     logging.info(f'ceil vars are {[float(x) for x in ceil.vars]}')
                     ceil_ans = ceil.prob.solve(solver=SOLVER)
-                    if ceil.objective > bestres:
-                        heap.append((next(counter), ceil))
-                        logging.info(f'newest counter val: {heap[-1][0]} \nHas objective {ceil.objective}')
+                    heap.append((next(counter), ceil))
+                    logging.info(f'newest counter val: {heap[-1][0]} \nHas objective {ceil.objective}')
                 except Exception as e:
                     logging.info(f'No valid round up. Exception {e}')
 
